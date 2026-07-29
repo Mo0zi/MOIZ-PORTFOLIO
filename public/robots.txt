@@ -4,7 +4,7 @@ Disallow: /dist/
 Disallow: /node_modules/
 
 # Host
-Host: https://moizahmed.online
+Host: https://www.moizahmed.online
 
 # Sitemaps
-Sitemap: https://moizahmed.online/sitemap.xml
+Sitemap: https://www.moizahmed.online/sitemap.xml
