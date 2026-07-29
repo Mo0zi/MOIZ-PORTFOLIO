@@ -2,7 +2,7 @@ import "./styles/Career.css";
 
 const Career = () => {
   return (
-    <div className="career-section section-container">
+    <section className="career-section section-container" id="career" aria-label="Career and Experience Timeline">
       <div className="career-container">
         <h2>
           My career <span>&</span>
@@ -17,10 +17,10 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>CCPD</h5>
+                <h3>Full Stack Developer</h3>
+                <h4>CCPD</h4>
               </div>
-              <h3>2024</h3>
+              <span className="career-year">2024</span>
             </div>
             <p>
               Developed and maintained responsive web applications using PHP MVC,
@@ -32,10 +32,10 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Haash Wears</h5>
+                <h3>Full Stack Developer</h3>
+                <h4>Haash Wears</h4>
               </div>
-              <h3>2024</h3>
+              <span className="career-year">2024</span>
             </div>
             <p>
               Built and enhanced a B2B business website by implementing responsive
@@ -47,10 +47,10 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Shopify Store Developer</h4>
-                <h5>Freelance — Silk School & Others</h5>
+                <h3>Shopify Store Developer</h3>
+                <h4>Freelance — Silk School &amp; Others</h4>
               </div>
-              <h3>2025</h3>
+              <span className="career-year">2025</span>
             </div>
             <p>
               Developed fully functional Shopify stores for eCommerce businesses,
@@ -62,10 +62,10 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Freelance Full Stack & AI Developer</h4>
-                <h5>Self-Employed</h5>
+                <h3>Freelance Full Stack &amp; AI Developer</h3>
+                <h4>Self-Employed</h4>
               </div>
-              <h3>2025 — Present</h3>
+              <span className="career-year">2025 — Present</span>
             </div>
             <p>
               Designing and delivering custom web applications, AI-powered solutions,
@@ -77,10 +77,10 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>BS Computer Sciences</h4>
-                <h5>University of Central Punjab, Lahore</h5>
+                <h3>BS Computer Sciences</h3>
+                <h4>University of Central Punjab, Lahore</h4>
               </div>
-              <h3>2022 — 2026</h3>
+              <span className="career-year">2022 — 2026</span>
             </div>
             <p>
               Pursuing a Bachelor's degree in Computer Science with a strong focus
@@ -91,7 +91,7 @@ const Career = () => {
 
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

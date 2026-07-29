@@ -101,7 +101,7 @@ const Work = () => {
   ];
 
   return (
-    <div className="work-section" id="work">
+    <section className="work-section" id="work" aria-label="Featured Software and AI Projects">
       <div className="work-container section-container">
         <h2>
           My <span>Work</span>
@@ -125,7 +125,7 @@ const Work = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

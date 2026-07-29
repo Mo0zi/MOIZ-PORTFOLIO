@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /dist/
+Disallow: /node_modules/
+
+# Host
+Host: https://moizahmed.com
+
+# Sitemaps
+Sitemap: https://moizahmed.com/sitemap.xml

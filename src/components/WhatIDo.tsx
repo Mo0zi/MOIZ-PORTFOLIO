@@ -25,7 +25,7 @@ const WhatIDo = () => {
     };
   }, []);
   return (
-    <div className="whatIDO">
+    <section className="whatIDO" id="what-i-do" aria-label="Services and Engineering Capabilities">
       <div className="what-box" style={{ flexDirection: "column", alignItems: "flex-start" }}>
         <h2 className="title">
           W<span className="hat-h2">HAT</span>
@@ -62,6 +62,15 @@ const WhatIDo = () => {
           <div
             className="what-content what-noTouch"
             ref={(el) => setRef(el, 0)}
+            role="button"
+            tabIndex={0}
+            aria-label="Expand Full Stack Development capabilities"
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                const el = containerRef.current[0];
+                if (el) handleClick(el);
+              }
+            }}
           >
             <div className="what-border1">
               <svg height="100%">
@@ -111,6 +120,15 @@ const WhatIDo = () => {
           <div
             className="what-content what-noTouch"
             ref={(el) => setRef(el, 1)}
+            role="button"
+            tabIndex={0}
+            aria-label="Expand AI & Agentic Systems capabilities"
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                const el = containerRef.current[1];
+                if (el) handleClick(el);
+              }
+            }}
           >
             <div className="what-border1">
               <svg height="100%">
@@ -148,7 +166,7 @@ const WhatIDo = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

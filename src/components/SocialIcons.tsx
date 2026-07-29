@@ -59,37 +59,37 @@ const SocialIcons = () => {
 
   return (
     <div className="icons-section">
-      <div className="social-icons" data-cursor="icons" id="social">
+      <div className="social-icons" data-cursor="icons" id="social" role="region" aria-label="Social Media Connections">
         <span>
-          <a href="https://github.com/Mo0zi" target="_blank">
-            <FaGithub />
+          <a href="https://github.com/Mo0zi" target="_blank" rel="noopener noreferrer" aria-label="Moiz Ahmed GitHub Profile">
+            <FaGithub aria-hidden="true" />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com" target="_blank">
-            <FaLinkedinIn />
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="Moiz Ahmed LinkedIn Profile">
+            <FaLinkedinIn aria-hidden="true" />
           </a>
         </span>
         <span>
-          <a href="https://x.com/Mo0ziofficiall" target="_blank">
-            <FaXTwitter />
+          <a href="https://x.com/Mo0ziofficiall" target="_blank" rel="noopener noreferrer" aria-label="Moiz Ahmed Twitter/X Profile">
+            <FaXTwitter aria-hidden="true" />
           </a>
         </span>
         <span>
-          <a href="https://www.instagram.com/mo0zi.official/" target="_blank">
-            <FaInstagram />
+          <a href="https://www.instagram.com/mo0zi.official/" target="_blank" rel="noopener noreferrer" aria-label="Moiz Ahmed Instagram Profile">
+            <FaInstagram aria-hidden="true" />
           </a>
         </span>
         <span>
-          <a href="https://wa.me/923249670130" target="_blank">
-            <FaWhatsapp />
+          <a href="https://wa.me/923249670130" target="_blank" rel="noopener noreferrer" aria-label="Moiz Ahmed WhatsApp Chat">
+            <FaWhatsapp aria-hidden="true" />
           </a>
         </span>
       </div>
-      <a className="resume-button" href="#">
+      <a className="resume-button" href="mailto:moizmalikofficiall@gmail.com?subject=Resume%20Request" aria-label="Request Moiz Ahmed's Resume via Email">
         <HoverLinks text="RESUME" />
         <span>
-          <TbNotes />
+          <TbNotes aria-hidden="true" />
         </span>
       </a>
     </div>

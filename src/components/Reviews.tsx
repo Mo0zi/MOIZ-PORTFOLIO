@@ -21,7 +21,7 @@ const Reviews = () => {
   ];
 
   return (
-    <div className="reviews-section section-container" id="reviews">
+    <section className="reviews-section section-container" id="reviews" aria-label="Client Testimonials and Reviews">
       <h2 className="reviews-title">
         Client <span>Reviews</span>
       </h2>
@@ -29,17 +29,17 @@ const Reviews = () => {
         {reviews.map((review, index) => (
           <div className="review-card" key={index}>
             <div className="quote-icon">
-              <FaQuoteLeft />
+              <FaQuoteLeft aria-hidden="true" />
             </div>
             <p className="review-text">"{review.text}"</p>
             <div className="review-author">
-              <h4>{review.name}</h4>
-              <h5>{review.role}</h5>
+              <h3>{review.name}</h3>
+              <h4>{review.role}</h4>
             </div>
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

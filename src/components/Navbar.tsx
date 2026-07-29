@@ -41,35 +41,38 @@ const Navbar = () => {
   }, []);
   return (
     <>
-      <div className="header">
-        <a href="/#" className="navbar-title" data-cursor="disable">
+      <header className="header" role="banner">
+        <a href="/#" className="navbar-title" data-cursor="disable" aria-label="Moiz Ahmed Portfolio Home">
           Moiz Ahmed
         </a>
         <a
           href="mailto:moizmalikofficiall@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
+          aria-label="Send Email to Moiz Ahmed"
         >
           moizmalikofficiall@gmail.com
         </a>
-        <ul>
-          <li>
-            <a data-href="#about" href="#about">
-              <HoverLinks text="ABOUT" />
-            </a>
-          </li>
-          <li>
-            <a data-href="#work" href="#work">
-              <HoverLinks text="WORK" />
-            </a>
-          </li>
-          <li>
-            <a data-href="#contact" href="#contact">
-              <HoverLinks text="CONTACT" />
-            </a>
-          </li>
-        </ul>
-      </div>
+        <nav aria-label="Main Portfolio Navigation">
+          <ul>
+            <li>
+              <a data-href="#about" href="#about" aria-label="Navigate to About section">
+                <HoverLinks text="ABOUT" />
+              </a>
+            </li>
+            <li>
+              <a data-href="#work" href="#work" aria-label="Navigate to Work projects section">
+                <HoverLinks text="WORK" />
+              </a>
+            </li>
+            <li>
+              <a data-href="#contact" href="#contact" aria-label="Navigate to Contact section">
+                <HoverLinks text="CONTACT" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
       <div className="landing-circle1"></div>
       <div className="landing-circle2"></div>

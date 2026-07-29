@@ -1,0 +1,118 @@
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 100px auto 120px auto;
+  width: var(--cWidth);
+  max-width: var(--cMaxWidth);
+}
+
+.faq-title {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 400;
+  text-align: center;
+  background: linear-gradient(0deg, #7f40ff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  margin-bottom: 60px;
+}
+
+.faq-title span {
+  font-family: "Geist", sans-serif;
+  color: var(--accentColor);
+  -webkit-text-fill-color: var(--accentColor);
+}
+
+.faq-container {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faq-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover,
+.faq-item.active {
+  border-color: var(--accentColor);
+  background: rgba(194, 164, 255, 0.05);
+}
+
+.faq-question {
+  width: 100%;
+  padding: 24px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: #eae5ec;
+  font-family: "Geist", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.3s ease;
+}
+
+.faq-question:hover {
+  color: var(--accentColor);
+}
+
+.faq-icon {
+  font-size: 24px;
+  color: var(--accentColor);
+  transition: transform 0.3s ease;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0, 1, 0, 1), padding 0.3s ease;
+  padding: 0 30px;
+}
+
+.faq-item.active .faq-answer {
+  max-height: 500px;
+  padding: 0 30px 24px 30px;
+  transition: max-height 0.4s ease-in-out, padding 0.3s ease;
+}
+
+.faq-answer p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #bfaec9;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 900px) {
+  .faq-title {
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 40px;
+  }
+  .faq-question {
+    font-size: 17px;
+    padding: 18px 20px;
+  }
+  .faq-item.active .faq-answer {
+    padding: 0 20px 18px 20px;
+  }
+}

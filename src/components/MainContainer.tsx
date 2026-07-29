@@ -9,6 +9,7 @@ import SocialIcons from "./SocialIcons";
 import WhatIDo from "./WhatIDo";
 import Work from "./Work";
 import Reviews from "./Reviews";
+import FAQ from "./FAQ";
 import setSplitText from "./utils/splitText";
 
 import TechStack from "./TechStack";
@@ -38,7 +39,7 @@ const MainContainer = ({ children }: PropsWithChildren) => {
       {isDesktopView && children}
       <div id="smooth-wrapper">
         <div id="smooth-content">
-          <div className="container-main">
+          <main className="container-main" id="main-content">
             <Landing>{!isDesktopView && children}</Landing>
             <About />
             <WhatIDo />
@@ -46,8 +47,9 @@ const MainContainer = ({ children }: PropsWithChildren) => {
             <Work />
             {isDesktopView && <TechStack />}
             <Reviews />
+            <FAQ />
             <Contact />
-          </div>
+          </main>
         </div>
       </div>
     </div>

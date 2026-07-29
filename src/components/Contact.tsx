@@ -3,14 +3,14 @@ import "./styles/Contact.css";
 
 const Contact = () => {
   return (
-    <div className="contact-section section-container" id="contact">
+    <footer className="contact-section section-container" id="contact" aria-label="Contact Information and Footer">
       <div className="contact-container">
-        <h3>Contact</h3>
+        <h2 className="title" style={{ fontSize: "40px", marginBottom: "30px", fontWeight: 500 }}>Contact</h2>
         <div className="contact-flex">
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:moizmalikofficiall@gmail.com" data-cursor="disable">
+              <a href="mailto:moizmalikofficiall@gmail.com" data-cursor="disable" aria-label="Email Moiz Ahmed">
                 moizmalikofficiall@gmail.com
               </a>
             </p>
@@ -18,7 +18,7 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Phone</h4>
             <p>
-              <a href="tel:+923249670130" data-cursor="disable">
+              <a href="tel:+923249670130" data-cursor="disable" aria-label="Call Moiz Ahmed">
                 +92 324 9670130
               </a>
             </p>
@@ -30,42 +30,52 @@ const Contact = () => {
             <a
               href="https://github.com/Mo0zi"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
+              aria-label="Moiz Ahmed GitHub"
             >
-              Github <MdArrowOutward />
+              Github <MdArrowOutward aria-hidden="true" />
             </a>
             <a
               href="https://www.linkedin.com"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
+              aria-label="Moiz Ahmed LinkedIn"
             >
-              Linkedin <MdArrowOutward />
+              Linkedin <MdArrowOutward aria-hidden="true" />
             </a>
             <a
               href="https://x.com/Mo0ziofficiall"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
+              aria-label="Moiz Ahmed Twitter"
             >
-              Twitter <MdArrowOutward />
+              Twitter <MdArrowOutward aria-hidden="true" />
             </a>
             <a
               href="https://www.instagram.com/mo0zi.official/"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
+              aria-label="Moiz Ahmed Instagram"
             >
-              Instagram <MdArrowOutward />
+              Instagram <MdArrowOutward aria-hidden="true" />
             </a>
             <a
               href="https://wa.me/923249670130"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
+              aria-label="Moiz Ahmed WhatsApp"
             >
-              WhatsApp <MdArrowOutward />
+              WhatsApp <MdArrowOutward aria-hidden="true" />
             </a>
           </div>
           <div className="contact-box">
@@ -73,12 +83,12 @@ const Contact = () => {
               Designed and Developed <br /> by <span>Moiz Ahmed</span>
             </h2>
             <h5>
-              <MdCopyright /> 2025
+              <MdCopyright aria-hidden="true" /> 2026 Moiz Ahmed. All rights reserved.
             </h5>
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

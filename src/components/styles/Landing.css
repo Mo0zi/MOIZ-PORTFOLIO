@@ -162,7 +162,8 @@
   top: 12%;
   left: 0;
 }
-.landing-intro h2 {
+.landing-intro h2,
+.landing-greeting {
   margin: 0;
   color: var(--accentColor);
   font-size: 22px;
