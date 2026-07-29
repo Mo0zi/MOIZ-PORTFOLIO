@@ -1,63 +1,41 @@
-# My Portfolio Website - Overview 🚀
+# Moiz Ahmed — Full Stack Developer & Agentic AI Engineer 🚀
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+Official portfolio website repository for **Moiz Ahmed**, Senior Full Stack Developer & Agentic AI Engineer specializing in React.js, Node.js, PHP MVC, LangChain, FAISS, RAG systems, Google Gemini API, and Shopify theme development.
+
+🌐 **Live Website**: [https://www.moizahmed.online](https://www.moizahmed.online)
 
 ---
 
-## ⚠️ Usage Notice
+## 🛠️ Core Engineering Skillset
 
-This project is shared for learning purposes only.
+- **Artificial Intelligence & RAG**: Agentic AI Workflows, LangChain Framework, FAISS Vector Search, Google Gemini API, OpenAI API, Retrieval-Augmented Generation (RAG).
+- **Full-Stack Development**: PHP MVC Architecture, React.js, Node.js, Express.js, JavaScript (ES6+), TypeScript, RESTful APIs.
+- **Database Engineering**: MongoDB, MySQL Relational Database Design, Query Optimization, Indexing.
+- **eCommerce & CMS**: Custom Shopify Theme Development, Liquid Templating, Payment Gateway Integration, SEO Engineering.
+
+---
+
+## 📁 Featured Projects Showcase
+
+1. **StitchSmart** — AI-Powered eCommerce Platform with RAG Search & Gemini API.
+2. **MarketGO AI** — Autonomous Agentic AI Marketing Automation SaaS.
+3. **Haash Wears** — B2B eCommerce Platform built on custom PHP MVC framework.
+4. **CCPD Web Platform** — Enterprise PHP MVC Application with RBAC security.
+5. **Shopify Stores** — High-Converting Custom Shopify Themes & Speed Optimization.
+6. **AI Solutions** — Bespoke FAISS Vector Search & LLM Pipeline Integrations.
+
+---
+
+## ⚠️ Usage & License Notice
+
+This repository is shared for open-source learning and code inspection purposes.
 
 Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
+- Clone or replicate the full website design for commercial use.
+- Re-distribute proprietary 3D assets or avatar models.
 
-If you use parts of the code, you must provide proper credit linking back to the original repository.
-
-Build your own version — don’t just copy.
-
-— Moiz Ahmed
+See the [LICENSE](LICENSE) file for full details.
 
 ---
 
-## 🛠️ Instructions
-
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
-
-
----
-
-## ⚙️ Tech Stack
-
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
-
----
-
-## 🎨 Assets Usage
-
-Some 3D assets included in this repository are free to use for learning purposes.
-
-However:
-
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
-
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
-
----
-
-![Protfolio-Preview](https://github.com/Mo0zi/MOIZ-PORTFOLIO)
-
----
-
-## 📄 License
-
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
-
-See the LICENSE file for full details
-
+© 2026 [Moiz Ahmed](https://www.moizahmed.online). All rights reserved.
