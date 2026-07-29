@@ -1,0 +1,16 @@
+{
+  "short_name": "Moiz Ahmed",
+  "name": "Moiz Ahmed - Full Stack Developer & Agentic AI Engineer",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512 192x192 64x64 32x32 24x24 16x16"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0b080c",
+  "theme_color": "#0b080c",
+  "display": "standalone",
+  "orientation": "portrait"
+}
