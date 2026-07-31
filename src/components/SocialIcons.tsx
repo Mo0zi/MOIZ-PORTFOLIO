@@ -82,7 +82,7 @@ const SocialIcons = () => {
           </a>
         </span>
         <span>
-          <a href="https://www.fiverr.com/sellers/m0iz_malik" target="_blank" rel="noopener noreferrer" aria-label="Moiz Ahmed Fiverr Profile">
+          <a href="https://www.fiverr.com/s/vvNZWK1" target="_blank" rel="noopener noreferrer" aria-label="Moiz Ahmed Fiverr Profile">
             <SiFiverr aria-hidden="true" />
           </a>
         </span>

@@ -68,7 +68,7 @@ const Contact = () => {
               Instagram <MdArrowOutward aria-hidden="true" />
             </a>
             <a
-              href="https://www.fiverr.com/sellers/m0iz_malik"
+              href="https://www.fiverr.com/s/vvNZWK1"
               target="_blank"
               rel="noopener noreferrer"
               data-cursor="disable"
