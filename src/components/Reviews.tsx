@@ -1,5 +1,7 @@
 import "./styles/Reviews.css";
-import { FaQuoteLeft } from "react-icons/fa6";
+import { FaQuoteLeft, FaStar, FaBolt } from "react-icons/fa6";
+import { SiFiverr } from "react-icons/si";
+import { MdArrowOutward } from "react-icons/md";
 
 const Reviews = () => {
   const reviews = [
@@ -32,9 +34,39 @@ const Reviews = () => {
 
   return (
     <section className="reviews-section section-container" id="reviews" aria-label="Client Testimonials and Reviews">
-      <h2 className="reviews-title">
-        Client <span>Reviews</span>
-      </h2>
+      <div className="reviews-header">
+        <h2 className="reviews-title">
+          Client <span>Reviews</span>
+        </h2>
+        
+        <a
+          href="https://www.fiverr.com/sellers/m0iz_malik"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fiverr-badge-card"
+          aria-label="Moiz Ahmed Fiverr Seller Profile with 5 Star Rating and 99% Response Rate"
+        >
+          <div className="fiverr-badge-left">
+            <SiFiverr className="fiverr-logo" aria-hidden="true" />
+            <div className="fiverr-badge-info">
+              <div className="fiverr-rating">
+                <span className="rating-num">5.0</span>
+                <div className="stars">
+                  <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+                </div>
+                <span className="rating-label">(5 Star Seller)</span>
+              </div>
+              <div className="fiverr-response">
+                <FaBolt className="bolt-icon" /> 99% Response Rate
+              </div>
+            </div>
+          </div>
+          <div className="fiverr-cta">
+            Order on Fiverr <MdArrowOutward aria-hidden="true" />
+          </div>
+        </a>
+      </div>
+
       <div className="reviews-grid">
         {reviews.map((review, index) => (
           <div className="review-card" key={index}>

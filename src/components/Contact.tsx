@@ -68,6 +68,16 @@ const Contact = () => {
               Instagram <MdArrowOutward aria-hidden="true" />
             </a>
             <a
+              href="https://www.fiverr.com/sellers/m0iz_malik"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-cursor="disable"
+              className="contact-social"
+              aria-label="Moiz Ahmed Fiverr"
+            >
+              Fiverr <MdArrowOutward aria-hidden="true" />
+            </a>
+            <a
               href="https://wa.me/923249670130"
               target="_blank"
               rel="noopener noreferrer"

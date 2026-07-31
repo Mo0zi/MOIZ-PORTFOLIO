@@ -5,6 +5,7 @@ import {
   FaXTwitter,
   FaWhatsapp,
 } from "react-icons/fa6";
+import { SiFiverr } from "react-icons/si";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
@@ -78,6 +79,11 @@ const SocialIcons = () => {
         <span>
           <a href="https://www.instagram.com/mo0zi.official/" target="_blank" rel="noopener noreferrer" aria-label="Moiz Ahmed Instagram Profile">
             <FaInstagram aria-hidden="true" />
+          </a>
+        </span>
+        <span>
+          <a href="https://www.fiverr.com/sellers/m0iz_malik" target="_blank" rel="noopener noreferrer" aria-label="Moiz Ahmed Fiverr Profile">
+            <SiFiverr aria-hidden="true" />
           </a>
         </span>
         <span>

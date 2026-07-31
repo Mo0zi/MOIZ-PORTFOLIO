@@ -8,15 +8,121 @@
   background-color: var(--backgroundColor);
 }
 
+.reviews-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .reviews-title {
   font-size: 70px;
   font-weight: 500;
-  margin-bottom: 50px;
+  margin: 0;
   text-transform: uppercase;
 }
 
 .reviews-title span {
   color: var(--accentColor);
+}
+
+/* ── Fiverr Badge Banner ── */
+.fiverr-badge-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background: rgba(27, 160, 108, 0.08);
+  border: 1px solid rgba(27, 160, 108, 0.3);
+  padding: 14px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.fiverr-badge-card:hover {
+  background: rgba(27, 160, 108, 0.16);
+  border-color: #1dbf73;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(29, 191, 115, 0.2);
+}
+
+.fiverr-badge-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.fiverr-logo {
+  font-size: 44px;
+  color: #1dbf73;
+  flex-shrink: 0;
+}
+
+.fiverr-badge-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.fiverr-rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.rating-num {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+
+.stars {
+  display: flex;
+  gap: 2px;
+  color: #ffb800;
+  font-size: 13px;
+}
+
+.rating-label {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 2px;
+}
+
+.fiverr-response {
+  font-size: 13px;
+  font-weight: 500;
+  color: #1dbf73;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.bolt-icon {
+  font-size: 11px;
+}
+
+.fiverr-cta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1dbf73;
+  background: rgba(29, 191, 115, 0.15);
+  padding: 8px 16px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.fiverr-badge-card:hover .fiverr-cta {
+  background: #1dbf73;
+  color: #000;
 }
 
 .reviews-grid {
