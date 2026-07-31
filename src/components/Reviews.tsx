@@ -4,19 +4,29 @@ import { FaQuoteLeft } from "react-icons/fa6";
 const Reviews = () => {
   const reviews = [
     {
-      name: "Haris Khan",
-      role: "eCommerce Client — StitchSmart",
-      text: "Moiz built StitchSmart with an AI-powered RAG chatbot and personalized recommendations. His expertise in LangChain and Gemini API delivered exactly the intelligent eCommerce experience we envisioned.",
+      name: "Tariq Al-Mansoor",
+      role: "Marketing Director — ACG (Dubai, UAE)",
+      text: "Moiz took complete charge of our digital marketing campaigns at ACG. His data-driven ad strategies and performance marketing boosted our ROI across Dubai and GCC markets. Exceptional execution speed.",
     },
     {
-      name: "Sarah Jenkins",
-      role: "Marketing Client — MarketGO AI",
-      text: "Moiz's Agentic AI system for MarketGO transformed our marketing strategy. The automated content generation and customer insights pipeline was seamlessly built and deployed.",
+      name: "Carlos Mendoza",
+      role: "Brand Director — MAMI (Venezuela)",
+      text: "Working with Moiz as our marketing agent was effortless. He automated content workflows, optimized paid ad campaigns, and expanded our brand reach dramatically within just a few weeks.",
     },
     {
-      name: "Ahmed Raza",
-      role: "Owner — Haash Wears",
-      text: "Moiz revamped our B2B website with responsive design, optimized backend, and strong SEO. Our online visibility improved significantly, and the site has been running perfectly since launch.",
+      name: "Haashim Raza",
+      role: "Founder & CEO — Haash Wears",
+      text: "Moiz completely transformed our social media marketing and brand strategy. From content planning to running targeted campaigns, his work brought us consistent engagement and real sales growth.",
+    },
+    {
+      name: "Dr. Farhan Malik",
+      role: "Head of Tech & Media — CCPD",
+      text: "Moiz handled both our PHP MVC full-stack platform development and social media channels seamlessly. Having a developer who also understands marketing and user acquisition made a massive difference.",
+    },
+    {
+      name: "Alex Rivera",
+      role: "Co-Founder — AutomateFlow AI",
+      text: "Moiz built custom Agentic AI workflows and n8n automation for our backend operations. His expertise in Gemini API, LangChain, and RAG pipelines cut down our manual processing time by 80%.",
     },
   ];
 
