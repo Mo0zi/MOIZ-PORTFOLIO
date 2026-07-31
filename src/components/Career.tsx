@@ -17,60 +17,52 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h3>Full Stack Developer</h3>
+                <h3>Social Media Marketing Expert</h3>
+                <h4>Haash Wears</h4>
+              </div>
+              <span className="career-year">2023 — Present</span>
+            </div>
+            <p>
+              Running end-to-end social media marketing for a fashion brand —
+              content strategy, paid campaigns, and growing the brand's presence
+              across Instagram and Facebook. Went from zero structured marketing
+              to consistent monthly engagement growth and measurable sales
+              impact.
+            </p>
+          </div>
+
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h3>Social Media & Full Stack Developer</h3>
                 <h4>CCPD</h4>
               </div>
               <span className="career-year">2024</span>
             </div>
             <p>
-              Developed and maintained responsive web applications using PHP MVC,
-              MySQL, and JavaScript while optimizing backend performance and user
-              experience across enterprise-grade systems.
+              Handled two things at once — building and maintaining the web
+              platform using PHP MVC and MySQL, while also managing the
+              organisation's social media channels. Not the typical combo, but
+              it's where I realised how much better products get when the person
+              building them also understands how they'll be marketed.
             </p>
           </div>
 
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h3>Full Stack Developer</h3>
-                <h4>Haash Wears</h4>
+                <h3>Freelance Marketing Agent & AI Developer</h3>
+                <h4>Self-Employed — International Clients</h4>
               </div>
-              <span className="career-year">2024</span>
+              <span className="career-year">2024 — Present</span>
             </div>
             <p>
-              Built and enhanced a B2B business website by implementing responsive
-              interfaces, backend functionality, and SEO-friendly features to
-              drive organic traffic and improve user engagement.
-            </p>
-          </div>
-
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h3>Shopify Store Developer</h3>
-                <h4>Freelance — Silk School &amp; Others</h4>
-              </div>
-              <span className="career-year">2025</span>
-            </div>
-            <p>
-              Developed fully functional Shopify stores for eCommerce businesses,
-              integrating custom themes, payment gateways, and SEO strategies to
-              maximize online sales and brand presence.
-            </p>
-          </div>
-
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h3>Freelance Full Stack &amp; AI Developer</h3>
-                <h4>Self-Employed</h4>
-              </div>
-              <span className="career-year">2025 — Present</span>
-            </div>
-            <p>
-              Designing and delivering custom web applications, AI-powered solutions,
-              and Shopify stores for clients using modern web technologies and LLM
-              integrations including LangChain, RAG, FAISS, and Google Gemini API.
+              Working independently with clients across the globe. Built and
+              executed digital marketing campaigns for ACG (Dubai) and MAMI
+              (Venezuela) — handling ad strategy, content, and performance
+              tracking. Alongside marketing, delivering custom AI solutions:
+              agentic workflows, RAG pipelines, and LLM integrations for clients
+              who need more than a standard web app.
             </p>
           </div>
 
@@ -83,9 +75,10 @@ const Career = () => {
               <span className="career-year">2022 — 2026</span>
             </div>
             <p>
-              Pursuing a Bachelor's degree in Computer Science with a strong focus
-              on software engineering, artificial intelligence, and full-stack
-              development. Actively applying academic knowledge to real-world projects.
+              Studying Computer Science at UCP — where the degree gave me the
+              fundamentals and the projects gave me the real skills. Most of
+              what I've built professionally started as something I was learning
+              in a lab or trying to solve on my own after class.
             </p>
           </div>
 
