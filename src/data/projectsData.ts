@@ -20,7 +20,7 @@ export const projectsData: CaseStudy[] = [
     category: "AI · eCommerce · Full Stack",
     tools: "React, Node.js, MongoDB, Google Gemini API, RAG, FAISS",
     link: "https://github.com/Mo0zi",
-    image: "/images/ecommerce_project.png",
+    image: "/images/n8n_workflow.png",
     summary: "AI-driven eCommerce platform featuring intelligent RAG chatbots and personalized product recommendation engines.",
     problem: "Traditional eCommerce stores struggle with high bounce rates due to static search filters and unassisted customer shopping journeys.",
     architecture: [
@@ -42,7 +42,7 @@ export const projectsData: CaseStudy[] = [
     category: "Agentic AI · Marketing SaaS",
     tools: "LangChain, Agentic AI, React, Express.js, OpenAI API",
     link: "https://github.com/Mo0zi",
-    image: "/images/ml_dashboard.png",
+    image: "/images/social_media_dashboard.png",
     summary: "Autonomous marketing automation SaaS that generates end-to-end multi-channel ad campaigns using agentic reasoning.",
     problem: "Marketing teams spend excessive hours manually planning, writing, and formatting multi-platform digital marketing campaigns.",
     architecture: [
@@ -64,7 +64,7 @@ export const projectsData: CaseStudy[] = [
     category: "Full Stack · B2B · Web",
     tools: "PHP MVC, MySQL, JavaScript, SEO",
     link: "https://github.com/Mo0zi",
-    image: "/images/portfolio_project.png",
+    image: "/images/developer_coding.png",
     summary: "Custom B2B eCommerce web platform built with a high-performance PHP MVC framework and SEO architecture.",
     problem: "Existing B2B wholesale portal suffered from slow catalog pagination and low visibility on Google Search.",
     architecture: [
@@ -86,7 +86,7 @@ export const projectsData: CaseStudy[] = [
     category: "Full Stack · Enterprise",
     tools: "PHP MVC, MySQL, JavaScript, REST APIs",
     link: "https://github.com/Mo0zi",
-    image: "/images/python_project.png",
+    image: "/images/developer_coding.png",
     summary: "Enterprise web management portal providing secure user authentication, role-based access control, and API integrations.",
     problem: "Legacy administrative systems had fragmented user access controls and high vulnerability risks.",
     architecture: [
@@ -108,7 +108,7 @@ export const projectsData: CaseStudy[] = [
     category: "eCommerce · Shopify",
     tools: "Shopify, Liquid, JavaScript, SEO, Theme Dev",
     link: "https://github.com/Mo0zi",
-    image: "/images/task_manager.png",
+    image: "/images/social_media_dashboard.png",
     summary: "Custom Shopify Liquid themes engineered for maximum conversion, speed, and mobile responsiveness.",
     problem: "Standard off-the-shelf Shopify templates had bloated JavaScript files causing slow mobile Core Web Vitals.",
     architecture: [
@@ -129,7 +129,7 @@ export const projectsData: CaseStudy[] = [
     category: "Freelance · AI · Full Stack",
     tools: "LangChain, RAG, FAISS, Gemini API, React, Node.js",
     link: "https://github.com/Mo0zi",
-    image: "/images/api_service.png",
+    image: "/images/trading_agent.png",
     summary: "Bespoke artificial intelligence solutions integrating vector search databases and custom LLM inference pipelines.",
     problem: "Enterprise clients needed secure local document search over internal knowledge bases without data leakage.",
     architecture: [
