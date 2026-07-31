@@ -6,12 +6,13 @@ const About = () => {
       <div className="about-me">
         <h2 className="title">About Me</h2>
         <p className="para">
-          Full Stack Developer with expertise in PHP MVC, React.js, Node.js,
-          Express.js, MongoDB, and JavaScript. Experienced in AI application
-          development using LangChain, FAISS, RAG, Google Gemini API, and
-          Agentic AI. Passionate about building intelligent, scalable, and
-          user-focused software solutions that turn complex problems into clean,
-          elegant digital experiences.
+          I build things that actually work — from full-stack web platforms and
+          enterprise systems to autonomous AI agents that think, reason, and
+          execute on their own. With a foundation in PHP MVC, React, Node.js,
+          and modern databases, and a growing edge in LangChain, RAG pipelines,
+          FAISS, and the Google Gemini API — I sit at the intersection of
+          software engineering and applied AI. I don't just write code; I solve
+          problems, ship products, and make sure they perform at scale.
         </p>
       </div>
     </section>
