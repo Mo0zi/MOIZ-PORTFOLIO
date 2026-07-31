@@ -52,7 +52,8 @@
   .header ul {
     flex-direction: row;
     align-items: center;
-    font-size: 14px;
+    column-gap: 20px;
+    font-size: 13px;
   }
   .header ul li {
     color: #eae5ec;
@@ -62,22 +63,32 @@
   }
 }
 @media only screen and (min-width: 900px) {
+  .header ul {
+    column-gap: 25px;
+    font-size: 14px;
+  }
   .navbar-connect {
     display: block;
   }
 }
 @media only screen and (min-width: 1200px) {
   .header {
-    padding: 35px 0px;
+    padding: 30px 0px;
   }
   .header ul {
-    column-gap: 80px;
-    font-size: 16px;
+    column-gap: 35px;
+    font-size: 14px;
   }
   .navbar-connect {
-    font-size: 16px;
+    font-size: 15px;
   }
   .navbar-title {
     font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .header ul {
+    column-gap: 45px;
+    font-size: 15px;
   }
 }
