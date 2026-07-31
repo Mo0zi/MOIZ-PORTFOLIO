@@ -9,20 +9,20 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "What services does Moiz Ahmed specialize in?",
-    answer: "Moiz Ahmed specializes in Full-Stack Web Development (PHP MVC, React, Node.js, Express, MongoDB, MySQL), Agentic AI & RAG Pipeline Integration (LangChain, FAISS, Gemini API), and Custom Shopify Store & Theme Development."
+    question: "What core services does Moiz Ahmed offer?",
+    answer: "Moiz specializes in three key pillars: 1) Full Stack Web Engineering (React, Node.js, Express, PHP MVC, MySQL, MongoDB), 2) Agentic AI & Automation (LangChain, RAG pipelines, FAISS vector search, n8n workflows, Gemini & OpenAI APIs), and 3) Social Media Marketing & Paid Ads (Meta Ads, Google Ads, content strategy, brand scaling)."
   },
   {
-    question: "What is Agentic AI and how does Moiz implement RAG pipelines?",
-    answer: "Agentic AI refers to autonomous AI systems capable of executing complex multi-step workflows. Moiz implements Retrieval-Augmented Generation (RAG) using LangChain, vector embeddings, FAISS databases, and LLM APIs to allow AI to reason over proprietary data with low latency and high precision."
+    question: "How does Moiz handle Social Media Marketing for international clients?",
+    answer: "Moiz manages end-to-end digital marketing campaigns for global brands — including ACG (Dubai, UAE), MAMI (Venezuela), and Haash Wears. He combines audience targeting, ad creative optimization, content strategy, and AI automation to deliver high ROI and organic growth."
   },
   {
-    question: "Does Moiz Ahmed build custom PHP MVC applications and Shopify stores?",
-    answer: "Yes, Moiz has extensive experience building custom PHP MVC enterprise applications (like CCPD and Haash Wears) and high-converting Shopify eCommerce stores with custom Liquid themes, payment gateways, and speed optimizations."
+    question: "What is Agentic AI and how are workflow automations built?",
+    answer: "Agentic AI systems use autonomous LLM reasoning agents to handle multi-step tasks. Moiz builds custom RAG architectures and n8n visual workflows integrated with FAISS vector databases, enabling businesses to automate customer support, lead qualification, and complex data processes."
   },
   {
-    question: "Is Moiz Ahmed available for remote freelance work or full-time engineering roles?",
-    answer: "Yes, Moiz Ahmed is available for international remote freelance projects, AI/web consulting engagements, and full-stack or AI software engineering positions."
+    question: "How can I hire Moiz for a project or consulting?",
+    answer: "You can reach out directly via WhatsApp (+92 324 9670130), order directly on his 5-Star Fiverr seller profile (99% response rate), or email moizmalikofficiall@gmail.com for freelance projects, marketing management, or full-stack/AI engineering contracts."
   }
 ];
 
