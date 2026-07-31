@@ -17,23 +17,23 @@ export const projectsData: CaseStudy[] = [
   {
     id: "stitchsmart",
     title: "StitchSmart",
-    category: "AI · eCommerce · Full Stack",
-    tools: "React, Node.js, MongoDB, Google Gemini API, RAG, FAISS",
+    category: "AI SaaS · B2B & B2C eCommerce · RAG Automation",
+    tools: "React, Node.js, Express, MongoDB, LangChain, FAISS, Gemini API, RAG",
     link: "https://wa.me/923249670130",
     image: "/images/n8n_workflow.png",
-    summary: "AI-driven eCommerce platform featuring intelligent RAG chatbots and personalized product recommendation engines.",
-    problem: "Traditional eCommerce stores struggle with high bounce rates due to static search filters and unassisted customer shopping journeys.",
+    summary: "AI-powered eCommerce SaaS platform automating online stores with a custom RAG-based AI chatbot. Evolved from a university project into a full production SaaS solution offering B2B wholesale and B2C retail capabilities in a single unified web platform.",
+    problem: "eCommerce businesses struggle to manage separate platforms for wholesale B2B buyers and retail B2C shoppers while lacking intelligent, instant AI assistance for complex product catalog queries.",
     architecture: [
-      "Frontend: React.js SPA with responsive UI components and real-time state management.",
-      "Backend: Node.js & Express RESTful API gateway handling order processing and customer auth.",
-      "AI Pipeline: LangChain framework integrated with FAISS vector database and Google Gemini API for context-aware product RAG search."
+      "Unified B2B & B2C Architecture: Single web platform supporting dual-mode tier pricing, wholesale bulk ordering, and instant retail checkout.",
+      "Custom RAG AI Pipeline: Built with LangChain, FAISS vector search, and Google Gemini API to index full product catalogs and deliver real-time AI customer assistance.",
+      "eCommerce Automation SaaS: Automated inventory sync, order processing workflows, and intelligent customer query handling."
     ],
-    challenges: "Handling high-concurrency vector embedding queries with sub-200ms response latencies during peak shopping sessions.",
-    solution: "Engineered an in-memory FAISS indexing layer with cached semantic query embeddings, reducing search latency by 68%.",
+    challenges: "Building a single architecture that seamlessly handles complex B2B bulk pricing contracts alongside B2C retail flows while maintaining sub-200ms vector search latencies.",
+    solution: "Engineered a unified REST API gateway with an in-memory FAISS semantic query index, reducing search latency by 68% and enabling effortless hybrid B2B/B2C store management.",
     metrics: [
-      "68% Reduction in search latency",
-      "34% Increase in shopper engagement time",
-      "99.4% Query accuracy rate"
+      "Unified B2B & B2C single-platform architecture",
+      "Custom RAG AI chatbot with 99.4% precision",
+      "68% Reduction in search & query latency"
     ]
   },
   {

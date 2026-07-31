@@ -115,9 +115,9 @@ npm run lint       # Run ESLint across the entire codebase
 
 ## 💼 Featured Projects
 
-### 1. StitchSmart — AI-Powered eCommerce Platform
-**Stack:** React · Node.js · MongoDB · Google Gemini API · LangChain · FAISS · RAG  
-An intelligent eCommerce platform with a context-aware RAG chatbot and semantic product search engine. Engineered an in-memory FAISS indexing layer that reduced vector search latency by **68%** and improved shopper engagement by **34%**.
+### 1. StitchSmart — AI eCommerce SaaS Platform (B2B & B2C)
+**Stack:** React · Node.js · Express · MongoDB · Google Gemini API · LangChain · FAISS · RAG Automation  
+An AI-powered eCommerce SaaS platform automating store operations and featuring a custom RAG-based AI chatbot. Evolved from a university project into a full production SaaS solution combining both B2B (wholesale bulk ordering) and B2C (retail storefront & AI assistance) features in a single unified web platform. Reduced catalog search latency by **68%** with **99.4%** query precision.
 
 ### 2. MarketGO AI — Agentic Marketing Automation SaaS
 **Stack:** LangChain · Agentic AI · React · Express.js · OpenAI API  
