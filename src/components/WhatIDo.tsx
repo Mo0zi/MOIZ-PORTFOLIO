@@ -98,10 +98,10 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>FULL STACK</h3>
+              <h3>Full Stack Web Engineering</h3>
               <h4>Description</h4>
               <p>
-                Building robust, scalable full-stack web applications using modern frameworks, clean architecture, and optimised databases. Delivering seamless user experiences from frontend to backend.
+                Architecting high-availability full-stack web applications and custom PHP MVC enterprise platforms. Delivering seamless user experiences with React.js, Node.js, Express, MongoDB, MySQL, and Shopify Liquid development.
               </p>
               <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
@@ -148,16 +148,16 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>AI &amp; ML</h3>
+              <h3>Agentic AI &amp; RAG Systems</h3>
               <h4>Description</h4>
               <p>
-                Engineering intelligent AI systems and machine learning pipelines. Building autonomous agentic workflows, RAG architectures, and LLM-powered solutions deployed in production environments.
+                Engineering autonomous Agentic AI workflows, Retrieval-Augmented Generation (RAG) pipelines, and vector search indexing. Integrating LangChain, FAISS, Google Gemini API, and OpenAI for enterprise automation.
               </p>
               <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">LangChain</div>
-                <div className="what-tags">RAG</div>
-                <div className="what-tags">FAISS</div>
+                <div className="what-tags">RAG Pipelines</div>
+                <div className="what-tags">FAISS Vector DB</div>
                 <div className="what-tags">Agentic AI</div>
                 <div className="what-tags">Google Gemini API</div>
                 <div className="what-tags">OpenAI API</div>
@@ -198,10 +198,10 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>MARKETING</h3>
+              <h3>Social Media &amp; Digital Growth</h3>
               <h4>Description</h4>
               <p>
-                Crafting data-driven social media marketing strategies and AI-automated campaigns. Growing brand presence, driving qualified traffic, and maximising conversions across digital platforms.
+                Executing data-driven digital marketing campaigns, Meta Ads management, and Google Ads optimization for global clients (Dubai, Venezuela, Pakistan). Driving qualified traffic and maximizing conversion rates.
               </p>
               <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">

@@ -89,9 +89,9 @@ const Contact = () => {
             </a>
           </div>
           <div className="contact-box">
-            <h2>
+            <h3 style={{ fontSize: "24px", fontWeight: 500, lineHeight: 1.3, marginBottom: "15px" }}>
               Designed and Developed <br /> by <span>Moiz Ahmed</span>
-            </h2>
+            </h3>
             <h5>
               <MdCopyright aria-hidden="true" /> 2026 Moiz Ahmed. All rights reserved.
             </h5>

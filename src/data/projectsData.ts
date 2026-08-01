@@ -16,11 +16,11 @@ export interface CaseStudy {
 export const projectsData: CaseStudy[] = [
   {
     id: "stitchsmart",
-    title: "StitchSmart",
-    category: "AI SaaS · B2B & B2C eCommerce · RAG Automation",
+    title: "StitchSmart AI eCommerce",
+    category: "AI SaaS · B2B & B2C eCommerce · RAG Architecture",
     tools: "React, Node.js, Express, MongoDB, LangChain, FAISS, Gemini API, RAG",
     link: "https://wa.me/923249670130",
-    image: "/images/n8n_workflow.png",
+    image: "/images/ecommerce_project.png",
     summary: "AI-powered eCommerce SaaS platform automating online stores with a custom RAG-based AI chatbot. Evolved from a university project into a full production SaaS solution offering B2B wholesale and B2C retail capabilities in a single unified web platform.",
     problem: "eCommerce businesses struggle to manage separate platforms for wholesale B2B buyers and retail B2C shoppers while lacking intelligent, instant AI assistance for complex product catalog queries.",
     architecture: [
@@ -38,11 +38,11 @@ export const projectsData: CaseStudy[] = [
   },
   {
     id: "marketgo-ai",
-    title: "MarketGO AI",
-    category: "Agentic AI · Marketing SaaS",
+    title: "MarketGO AI Automation",
+    category: "Agentic AI · Marketing SaaS · Multi-Agent",
     tools: "LangChain, Agentic AI, React, Express.js, OpenAI API",
     link: "https://wa.me/923249670130",
-    image: "/images/social_media_dashboard.png",
+    image: "/images/ml_dashboard.png",
     summary: "Autonomous marketing automation SaaS that generates end-to-end multi-channel ad campaigns using agentic reasoning.",
     problem: "Marketing teams spend excessive hours manually planning, writing, and formatting multi-platform digital marketing campaigns.",
     architecture: [
@@ -60,11 +60,11 @@ export const projectsData: CaseStudy[] = [
   },
   {
     id: "haash-wears",
-    title: "Haash Wears",
-    category: "Full Stack · B2B · Web",
-    tools: "PHP MVC, MySQL, JavaScript, SEO",
+    title: "Haash Wears B2B Platform",
+    category: "Full Stack · PHP MVC · B2B eCommerce",
+    tools: "PHP MVC, MySQL, JavaScript, Custom SEO",
     link: "https://wa.me/923249670130",
-    image: "/images/developer_coding.png",
+    image: "/images/portfolio_project.png",
     summary: "Custom B2B eCommerce web platform built with a high-performance PHP MVC framework and SEO architecture.",
     problem: "Existing B2B wholesale portal suffered from slow catalog pagination and low visibility on Google Search.",
     architecture: [
@@ -82,11 +82,11 @@ export const projectsData: CaseStudy[] = [
   },
   {
     id: "ccpd-platform",
-    title: "CCPD Web Platform",
-    category: "Full Stack · Enterprise",
+    title: "CCPD Enterprise Platform",
+    category: "Full Stack · PHP MVC · Enterprise",
     tools: "PHP MVC, MySQL, JavaScript, REST APIs",
     link: "https://wa.me/923249670130",
-    image: "/images/developer_coding.png",
+    image: "/images/python_project.png",
     summary: "Enterprise web management portal providing secure user authentication, role-based access control, and API integrations.",
     problem: "Legacy administrative systems had fragmented user access controls and high vulnerability risks.",
     architecture: [
@@ -104,11 +104,11 @@ export const projectsData: CaseStudy[] = [
   },
   {
     id: "shopify-stores",
-    title: "Shopify Custom Stores",
-    category: "eCommerce · Shopify",
-    tools: "Shopify, Liquid, JavaScript, SEO, Theme Dev",
+    title: "Shopify Custom Stores & Liquid Themes",
+    category: "eCommerce · Shopify Theme Dev",
+    tools: "Shopify, Liquid, JavaScript, Speed SEO, Theme Dev",
     link: "https://wa.me/923249670130",
-    image: "/images/social_media_dashboard.png",
+    image: "/images/task_manager.png",
     summary: "Custom Shopify Liquid themes engineered for maximum conversion, speed, and mobile responsiveness.",
     problem: "Standard off-the-shelf Shopify templates had bloated JavaScript files causing slow mobile Core Web Vitals.",
     architecture: [
@@ -125,11 +125,11 @@ export const projectsData: CaseStudy[] = [
   },
   {
     id: "ai-solutions",
-    title: "AI & RAG Custom Integrations",
-    category: "Freelance · AI · Full Stack",
+    title: "AI & RAG Custom Solutions",
+    category: "Agentic AI · FAISS Vector Search · LLM Pipelines",
     tools: "LangChain, RAG, FAISS, Gemini API, React, Node.js",
     link: "https://wa.me/923249670130",
-    image: "/images/trading_agent.png",
+    image: "/images/api_service.png",
     summary: "Bespoke artificial intelligence solutions integrating vector search databases and custom LLM inference pipelines.",
     problem: "Enterprise clients needed secure local document search over internal knowledge bases without data leakage.",
     architecture: [

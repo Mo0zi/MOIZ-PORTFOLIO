@@ -64,16 +64,16 @@ const Work = () => {
       <section className="work-section" id="work" aria-label="Featured Software and AI Projects">
         <div className="work-container section-container">
           <h2>
-            My <span>Work</span>
+            Featured <span>Projects &amp; Case Studies</span>
           </h2>
           <div className="work-flex">
             {projectsData.map((project, index) => (
               <div className="work-box" key={project.id}>
                 <div className="work-info">
                   <div className="work-title">
-                    <h3>0{index + 1}</h3>
+                    <span className="work-num" style={{ fontSize: "28px", fontWeight: 700, opacity: 0.6, marginRight: "15px" }}>0{index + 1}</span>
                     <div>
-                      <h4>{project.title}</h4>
+                      <h3>{project.title}</h3>
                       <p>{project.category}</p>
                     </div>
                   </div>
