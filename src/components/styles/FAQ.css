@@ -102,6 +102,14 @@
   font-weight: 300;
 }
 
+@media only screen and (min-width: 900px) {
+  .faq-section {
+    padding-left: 70px;
+    padding-right: 70px;
+    box-sizing: border-box;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .faq-title {
     font-size: 45px;

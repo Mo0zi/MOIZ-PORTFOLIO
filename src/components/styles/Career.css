@@ -130,6 +130,14 @@
       0px 0px 110px 20px #f2c0ff;
   }
 }
+@media only screen and (min-width: 900px) {
+  .career-section {
+    padding-left: 70px;
+    padding-right: 70px;
+    box-sizing: border-box;
+  }
+}
+
 @media only screen and (max-width: 1400px) {
   .career-section h2 {
     font-size: 50px;

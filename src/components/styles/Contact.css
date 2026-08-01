@@ -46,6 +46,13 @@ a.contact-social {
   gap: 10px;
   opacity: 0.5;
 }
+@media only screen and (min-width: 900px) {
+  .contact-section {
+    padding-left: 70px;
+    padding-right: 70px;
+    box-sizing: border-box;
+  }
+}
 @media only screen and (max-width: 1600px) {
   .contact-section h3 {
     font-size: 50px;
