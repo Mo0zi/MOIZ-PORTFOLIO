@@ -21,19 +21,19 @@ export const projectsData: CaseStudy[] = [
     tools: "React, Node.js, Express, MongoDB, LangChain, FAISS, Gemini API, RAG",
     link: "https://wa.me/923249670130",
     image: "/images/ecommerce_project.png",
-    summary: "AI-powered eCommerce SaaS platform automating online stores with a custom RAG-based AI chatbot. Evolved from a university project into a full production SaaS solution offering B2B wholesale and B2C retail capabilities in a single unified web platform.",
-    problem: "eCommerce businesses struggle to manage separate platforms for wholesale B2B buyers and retail B2C shoppers while lacking intelligent, instant AI assistance for complex product catalog queries.",
+    summary: "AI-powered eCommerce SaaS platform automating online stores with a custom RAG-based AI chatbot. Evolved from a university project into a production SaaS solution offering B2B wholesale and B2C retail capabilities in a single unified web platform.",
+    problem: "eCommerce businesses struggle to manage separate platforms for wholesale B2B buyers and retail B2C shoppers while lacking intelligent AI assistance for complex product catalog queries.",
     architecture: [
       "Unified B2B & B2C Architecture: Single web platform supporting dual-mode tier pricing, wholesale bulk ordering, and instant retail checkout.",
       "Custom RAG AI Pipeline: Built with LangChain, FAISS vector search, and Google Gemini API to index full product catalogs and deliver real-time AI customer assistance.",
       "eCommerce Automation SaaS: Automated inventory sync, order processing workflows, and intelligent customer query handling."
     ],
-    challenges: "Building a single architecture that seamlessly handles complex B2B bulk pricing contracts alongside B2C retail flows while maintaining sub-200ms vector search latencies.",
-    solution: "Engineered a unified REST API gateway with an in-memory FAISS semantic query index, reducing search latency by 68% and enabling effortless hybrid B2B/B2C store management.",
+    challenges: "Building a single architecture that handles complex B2B bulk pricing contracts alongside B2C retail flows while maintaining low vector search query latencies.",
+    solution: "Engineered a unified REST API gateway with an in-memory FAISS semantic query index, enabling efficient hybrid B2B/B2C store management.",
     metrics: [
       "Unified B2B & B2C single-platform architecture",
-      "Custom RAG AI chatbot with 99.4% precision",
-      "68% Reduction in search & query latency"
+      "Custom RAG AI chatbot with LangChain & FAISS",
+      "In-memory vector embedding query index"
     ]
   },
   {
@@ -53,9 +53,9 @@ export const projectsData: CaseStudy[] = [
     challenges: "Preventing infinite execution loops and managing token rate limits across multi-agent delegation chains.",
     solution: "Implemented strict state-machine controls and token-aware queue throttling, guaranteeing execution reliability.",
     metrics: [
-      "85% Reduction in campaign setup time",
-      "4.8/5 User satisfaction rating",
-      "Sub-3 second agent response time"
+      "Autonomous multi-agent execution pipeline",
+      "LangChain LLM orchestration architecture",
+      "Token-aware rate limiting microservice"
     ]
   },
   {
@@ -66,18 +66,18 @@ export const projectsData: CaseStudy[] = [
     link: "https://wa.me/923249670130",
     image: "/images/portfolio_project.png",
     summary: "Custom B2B eCommerce web platform built with a high-performance PHP MVC framework and SEO architecture.",
-    problem: "Existing B2B wholesale portal suffered from slow catalog pagination and low visibility on Google Search.",
+    problem: "Existing B2B wholesale portal suffered from slow catalog pagination and low visibility on search engine result pages.",
     architecture: [
       "Core Framework: Custom lightweight PHP MVC framework adhering to PSR-12 coding standards.",
       "Database: Optimized MySQL schema with indexed relational foreign keys and catalog caching.",
       "Frontend: Vanilla JavaScript with asynchronous AJAX cart updates and mobile-first CSS."
     ],
-    challenges: "Rendering catalog databases containing 10,000+ SKU variants without server response lag.",
-    solution: "Designed a multi-level server query cache and database index strategy, dropping TTFB to 140ms.",
+    challenges: "Rendering catalog databases containing high SKU variant counts without server response lag.",
+    solution: "Designed a multi-level server query cache and database index strategy for accelerated catalog delivery.",
     metrics: [
-      "140ms Time To First Byte (TTFB)",
-      "120% Increase in organic search impressions",
-      "Zero downtime performance"
+      "Custom lightweight PHP MVC architecture",
+      "Indexed relational MySQL database design",
+      "SEO-optimized semantic HTML rendering"
     ]
   },
   {
@@ -88,18 +88,18 @@ export const projectsData: CaseStudy[] = [
     link: "https://wa.me/923249670130",
     image: "/images/python_project.png",
     summary: "Enterprise web management portal providing secure user authentication, role-based access control, and API integrations.",
-    problem: "Legacy administrative systems had fragmented user access controls and high vulnerability risks.",
+    problem: "Legacy administrative systems had fragmented user access controls and vulnerability risks.",
     architecture: [
       "Backend: PHP MVC with strict CSRF protection, password hashing, and role middleware.",
-      "Database: Relational MySQL instance designed for high audit log integrity.",
-      "Integrations: Custom RESTful API endpoints for third-party reporting tools."
+      "Database: Relational MySQL instance designed for audit log integrity.",
+      "Integrations: Custom RESTful API endpoints for institutional reporting tools."
     ],
     challenges: "Enforcing granular role permissions across multiple institutional user tiers without bottlenecking request speed.",
-    solution: "Built a bitwise permission middleware system that validates access rights in O(1) constant time.",
+    solution: "Built a bitwise permission middleware system that validates access rights efficiently.",
     metrics: [
-      "100% Security audit compliance",
-      "O(1) Access control lookup speed",
-      "Zero security vulnerabilities detected"
+      "Bitwise role-based access control middleware",
+      "Relational MySQL audit logging schema",
+      "RESTful API enterprise integration"
     ]
   },
   {
@@ -109,18 +109,18 @@ export const projectsData: CaseStudy[] = [
     tools: "Shopify, Liquid, JavaScript, Speed SEO, Theme Dev",
     link: "https://wa.me/923249670130",
     image: "/images/task_manager.png",
-    summary: "Custom Shopify Liquid themes engineered for maximum conversion, speed, and mobile responsiveness.",
-    problem: "Standard off-the-shelf Shopify templates had bloated JavaScript files causing slow mobile Core Web Vitals.",
+    summary: "Custom Shopify Liquid themes engineered for maximum speed, usability, and mobile responsiveness.",
+    problem: "Standard off-the-shelf Shopify templates had bloated JavaScript files causing slow mobile loading.",
     architecture: [
       "Theme Engine: Custom Shopify Liquid codebase built modularly without reliance on heavy apps.",
       "Frontend: Modular JS components utilizing native Web APIs and lazy-loaded media assets."
     ],
-    challenges: "Achieving top-tier Mobile Core Web Vitals while preserving complex product image galleries and variants.",
+    challenges: "Achieving fast mobile load times while preserving complex product image galleries and variants.",
     solution: "Eliminated third-party script bloat, implemented native responsive image srcsets, and optimized critical CSS.",
     metrics: [
-      "95+ Mobile Lighthouse performance score",
-      "28% Conversion rate improvement",
-      "Under 1.6s Mobile LCP"
+      "Custom Liquid theme engine architecture",
+      "Zero third-party script bloat",
+      "Native responsive image srcsets"
     ]
   },
   {
@@ -140,9 +140,9 @@ export const projectsData: CaseStudy[] = [
     challenges: "Parsing complex unformatted PDF documents into coherent text chunks for vector indexing.",
     solution: "Developed custom semantic section boundary chunkers that preserve document context across boundaries.",
     metrics: [
-      "96% Precision on document retrieval",
-      "Zero data leakage architecture",
-      "Sub-250ms vector query execution"
+      "Semantic chunking PDF parser pipeline",
+      "Embedded FAISS vector similarity search",
+      "REST API integration with Gemini API"
     ]
   }
 ];
