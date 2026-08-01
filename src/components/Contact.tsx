@@ -3,14 +3,20 @@ import "./styles/Contact.css";
 
 const Contact = () => {
   return (
-    <footer className="contact-section section-container" id="contact" aria-label="Contact Information and Footer">
+    <footer
+      className="contact-section section-container"
+      id="contact"
+      aria-label="Contact Information and Footer"
+      itemScope
+      itemType="https://schema.org/Person"
+    >
       <div className="contact-container">
         <h2 className="title" style={{ fontSize: "40px", marginBottom: "30px", fontWeight: 500 }}>Contact</h2>
         <div className="contact-flex">
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:moizmalikofficiall@gmail.com" data-cursor="disable" aria-label="Email Moiz Ahmed">
+              <a href="mailto:moizmalikofficiall@gmail.com" data-cursor="disable" aria-label="Email Moiz Ahmed" itemProp="email">
                 moizmalikofficiall@gmail.com
               </a>
             </p>
@@ -18,12 +24,14 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Phone</h4>
             <p>
-              <a href="tel:+923249670130" data-cursor="disable" aria-label="Call Moiz Ahmed">
+              <a href="tel:+923249670130" data-cursor="disable" aria-label="Call Moiz Ahmed" itemProp="telephone">
                 +92 324 9670130
               </a>
             </p>
             <h4 style={{ marginTop: "1rem" }}>Location</h4>
-            <p>Sialkot, Punjab, Pakistan</p>
+            <p itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
+              <span itemProp="addressLocality">Sialkot</span>, <span itemProp="addressRegion">Punjab</span>, <span itemProp="addressCountry">Pakistan</span>
+            </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>

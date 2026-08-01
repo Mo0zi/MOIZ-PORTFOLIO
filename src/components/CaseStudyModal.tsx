@@ -21,6 +21,8 @@ const CaseStudyModal = ({ project, onClose }: Props) => {
       <div
         className="modal-content"
         onClick={(e) => e.stopPropagation()}
+        itemScope
+        itemType="https://schema.org/SoftwareApplication"
       >
         <button
           className="modal-close"
@@ -31,11 +33,13 @@ const CaseStudyModal = ({ project, onClose }: Props) => {
         </button>
 
         <div className="modal-header">
-          <h2 id="case-study-title">{project.title}</h2>
-          <p className="modal-category">{project.category} · {project.tools}</p>
+          <h2 id="case-study-title" itemProp="name">{project.title}</h2>
+          <p className="modal-category">
+            <span itemProp="applicationCategory">{project.category}</span> · <span itemProp="operatingSystem">Web</span> · {project.tools}
+          </p>
         </div>
 
-        <p className="modal-summary">{project.summary}</p>
+        <p className="modal-summary" itemProp="description">{project.summary}</p>
 
         <div className="modal-section">
           <h3>Problem Statement</h3>

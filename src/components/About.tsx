@@ -6,10 +6,10 @@ const About = () => {
       <div className="about-me">
         <h2 className="title">About <span>Me</span></h2>
         <p className="para">
-          I build high-performance software that solves real business challenges — from scalable <strong>Full-Stack Web Applications</strong> and enterprise <strong>PHP MVC systems</strong> to autonomous <strong>Agentic AI systems</strong> that reason, retrieve context, and execute complex workflows.
+          <strong>Moiz Ahmed</strong> is a <strong>Senior Full Stack Developer &amp; Agentic AI Engineer</strong> based in <strong>Sialkot, Punjab, Pakistan</strong>. He specializes in engineering high-availability web platforms, enterprise PHP MVC systems, custom Shopify themes, and autonomous AI systems using Retrieval-Augmented Generation (RAG) and LLM agentic workflows.
         </p>
         <p className="para" style={{ marginTop: "1rem" }}>
-          Based in <strong>Sialkot, Pakistan</strong>, I work with global engineering teams and eCommerce brands. My expertise spans <strong>React.js, Node.js, Express, MongoDB, MySQL, and Shopify Liquid development</strong>, coupled with cutting-edge AI integrations using <strong>LangChain, FAISS vector databases, RAG architectures, and the Google Gemini API</strong>. I turn ambitious ideas into robust, production-grade applications.
+          With deep technical expertise spanning <strong>React.js, Node.js, Express, PHP MVC, MySQL, MongoDB, and Shopify Liquid</strong>, Moiz integrates modern AI technologies including <strong>LangChain, FAISS vector databases, Google Gemini API, and OpenAI API</strong>. He designs scalable web architectures, optimizes database queries for low latencies, and automates multi-step business operations for clients worldwide.
         </p>
       </div>
     </section>
