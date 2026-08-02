@@ -15,6 +15,28 @@ export interface CaseStudy {
 
 export const projectsData: CaseStudy[] = [
   {
+    id: "parway-erp",
+    title: "PARWAY-ERP Software System",
+    category: "Full Stack · Enterprise ERP · Supply Chain & Financial Management",
+    tools: "PHP MVC, React, MySQL, Node.js, REST APIs, Role-Based Access Control",
+    link: "https://wa.me/923249670130",
+    image: "/images/parway_erp.png",
+    summary: "Comprehensive Enterprise Resource Planning (ERP) platform built for end-to-end business operation automation, multi-warehouse inventory control, automated financial ledger tracking, human resources, and real-time executive analytics.",
+    problem: "Growing enterprise organizations encounter operational friction due to disconnected legacy systems for inventory tracking, payroll, order fulfillment, and client billing—causing data silos, audit errors, and delayed decision making.",
+    architecture: [
+      "Core ERP Engine: Custom lightweight PHP MVC framework delivering high-performance API endpoints, atomic database operations, and bitwise role-based access control.",
+      "Relational Database Architecture: Normalized MySQL database schema engineered with strict foreign key constraints and ACID transaction isolation for multi-tenant financial ledgers and inventory audit trails.",
+      "Interactive ERP Dashboard: Responsive React & TypeScript interface featuring real-time data visualizer charts, batch stock updates, supply chain tracking, and exportable financial reports."
+    ],
+    challenges: "Maintaining strict data consistency and low latency during high-concurrency multi-warehouse inventory sync while concurrently processing complex financial ledger transactions.",
+    solution: "Engineered an event-driven queue buffer and optimized transaction isolation levels, guaranteeing zero ledger variance and real-time inventory updates across enterprise divisions.",
+    metrics: [
+      "Multi-warehouse inventory & financial ledger automation",
+      "Bitwise role-based security & comprehensive audit logging",
+      "High-concurrency MySQL transaction architecture"
+    ]
+  },
+  {
     id: "stitchsmart",
     title: "StitchSmart AI eCommerce",
     category: "AI SaaS · B2B & B2C eCommerce · RAG Architecture",

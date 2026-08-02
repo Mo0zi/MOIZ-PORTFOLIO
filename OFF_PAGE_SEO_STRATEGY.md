@@ -42,7 +42,7 @@ Creating consistent, rich, cross-linked profiles across tier-1 developer authori
 
 ## 3. Pillar 2: AI & Software Product Directory Submissions
 
-Submitting featured projects (**StitchSmart**, **MarketGO AI**, **Haash Wears**) to curated software and AI aggregation directories generates authoritative backlinks and direct referral traffic.
+Submitting featured projects (**PARWAY-ERP**, **StitchSmart**, **MarketGO AI**, **Haash Wears**) to curated software and AI aggregation directories generates authoritative backlinks and direct referral traffic.
 
 ### Target Directories for Submissions
 

@@ -71,7 +71,7 @@ const Work = () => {
               <div className="work-box" key={project.id}>
                 <div className="work-info">
                   <div className="work-title">
-                    <span className="work-num" style={{ fontSize: "28px", fontWeight: 700, opacity: 0.6, marginRight: "15px" }}>0{index + 1}</span>
+                    <span className="work-num" style={{ fontSize: "28px", fontWeight: 700, opacity: 0.6, marginRight: "15px" }}>{index + 1 < 10 ? `0${index + 1}` : index + 1}</span>
                     <div>
                       <h3>{project.title}</h3>
                       <p>{project.category}</p>

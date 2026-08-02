@@ -115,7 +115,11 @@ npm run lint       # Run ESLint across the entire codebase
 
 ## 💼 Featured Projects
 
-### 1. StitchSmart — AI eCommerce SaaS Platform (B2B & B2C)
+### 1. PARWAY-ERP Software System — Enterprise Resource Planning
+**Stack:** PHP MVC · React · MySQL · Node.js · REST APIs · Bitwise RBAC  
+Comprehensive Enterprise Resource Planning (ERP) platform built for end-to-end business operation automation, multi-warehouse inventory control, automated financial ledger tracking, human resources, and real-time executive analytics. Features ACID-compliant transaction isolation, bitwise permission control, and sub-second inventory stock updates across multi-warehouse locations.
+
+### 2. StitchSmart — AI eCommerce SaaS Platform (B2B & B2C)
 **Stack:** React · Node.js · Express · MongoDB · Google Gemini API · LangChain · FAISS · RAG Automation  
 An AI-powered eCommerce SaaS platform automating store operations and featuring a custom RAG-based AI chatbot. Evolved from a university project into a full production SaaS solution combining both B2B (wholesale bulk ordering) and B2C (retail storefront & AI assistance) features in a single unified web platform. Reduced catalog search latency by **68%** with **99.4%** query precision.
 
