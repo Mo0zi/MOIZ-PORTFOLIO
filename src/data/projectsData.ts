@@ -16,24 +16,24 @@ export interface CaseStudy {
 export const projectsData: CaseStudy[] = [
   {
     id: "parway-erp",
-    title: "PARWAY-ERP Software System",
-    category: "Full Stack · Enterprise ERP · Supply Chain & Financial Management",
-    tools: "PHP MVC, React, MySQL, Node.js, REST APIs, Role-Based Access Control",
+    title: "Parway Industry - Manufacturing ERP System",
+    category: "Full Stack · Enterprise ERP · Manufacturing & Financial Control",
+    tools: "PHP, MySQL, JavaScript, Custom MVC, REST APIs, Role-Based Access Control",
     link: "https://wa.me/923249670130",
     image: "/images/parway_erp.png",
-    summary: "Comprehensive Enterprise Resource Planning (ERP) platform built for end-to-end business operation automation, multi-warehouse inventory control, automated financial ledger tracking, human resources, and real-time executive analytics.",
-    problem: "Growing enterprise organizations encounter operational friction due to disconnected legacy systems for inventory tracking, payroll, order fulfillment, and client billing—causing data silos, audit errors, and delayed decision making.",
+    summary: "Custom Enterprise Resource Planning (ERP) system engineered for apparel and clothing manufacturing—featuring live production metrics, lot management tracking, worker wages & payables, customer ledgers, and financial overview dashboards.",
+    problem: "Apparel manufacturing plants face complex tracking bottlenecks across worker daily wages, production lot completion status, customer receivables, and raw material inventory when reliant on manual entry or disconnected spreadsheets.",
     architecture: [
-      "Core ERP Engine: Custom lightweight PHP MVC framework delivering high-performance API endpoints, atomic database operations, and bitwise role-based access control.",
-      "Relational Database Architecture: Normalized MySQL database schema engineered with strict foreign key constraints and ACID transaction isolation for multi-tenant financial ledgers and inventory audit trails.",
-      "Interactive ERP Dashboard: Responsive React & TypeScript interface featuring real-time data visualizer charts, batch stock updates, supply chain tracking, and exportable financial reports."
+      "Manufacturing & Financial Control Panel: Real-time dashboard displaying 7-day sales vs. wages performance trends, lot completion status (% done), and worker production leaderboards.",
+      "Core Accounting & Wages Engine: Automated calculation of worker daily wages, customer ledgers, worker payables, and sales invoices with instant PDF reporting.",
+      "Database & Inventory Tracking: Relational MySQL database schema supporting lot sheet tracking, item master catalogs, personal ledgers, and system backups."
     ],
-    challenges: "Maintaining strict data consistency and low latency during high-concurrency multi-warehouse inventory sync while concurrently processing complex financial ledger transactions.",
-    solution: "Engineered an event-driven queue buffer and optimized transaction isolation levels, guaranteeing zero ledger variance and real-time inventory updates across enterprise divisions.",
+    challenges: "Synchronizing real-time piece-rate worker wage calculations with lot sheet progress updates while maintaining accurate customer accounts receivable balances.",
+    solution: "Built a transaction-safe relational schema with automated ledger calculation modules and live production metrics visualization.",
     metrics: [
-      "Multi-warehouse inventory & financial ledger automation",
-      "Bitwise role-based security & comprehensive audit logging",
-      "High-concurrency MySQL transaction architecture"
+      "Clothing manufacturing & lot completion tracking",
+      "Worker daily wages & customer ledger automation",
+      "Real-time sales vs. wages performance analytics"
     ]
   },
   {
