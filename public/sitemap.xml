@@ -4,7 +4,7 @@
   https://www.moizahmed.online/
   Last Updated: 2026-08-06
   Namespace: Sitemap + Image Sitemap Extension + xHTML
-  Covers: All page sections including reviews & tech stack
+  Covers: All 50+ URLs including 15 Service verticals, 6 Case Studies, Blog Hub, and 20 Blog Posts
 -->
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -14,81 +14,29 @@
 >
 
   <!-- ══════════════════════════════════════
-       HOME — Priority 1.0
+       MAIN CORE SECTIONS — Priority 1.0 - 0.8
   ══════════════════════════════════════ -->
   <url>
     <loc>https://www.moizahmed.online/</loc>
     <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://www.moizahmed.online/images/ecommerce_project.png</image:loc>
-      <image:title>StitchSmart AI eCommerce Platform — Moiz Ahmed</image:title>
-      <image:caption>AI-powered B2B and B2C eCommerce platform with RAG, LangChain, FAISS, and Google Gemini API built by Moiz Ahmed</image:caption>
-      <image:geo_location>Sialkot, Pakistan</image:geo_location>
-      <image:license>https://www.moizahmed.online/</image:license>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.moizahmed.online/images/parway_erp.png</image:loc>
-      <image:title>PARWAY ERP — Manufacturing Enterprise System by Moiz Ahmed</image:title>
-      <image:caption>Custom PHP MVC ERP system for apparel manufacturing with live production metrics and financial dashboards</image:caption>
-      <image:geo_location>Sialkot, Pakistan</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.moizahmed.online/images/ml_dashboard.png</image:loc>
-      <image:title>MarketGO AI — Autonomous Marketing SaaS by Moiz Ahmed</image:title>
-      <image:caption>Agentic AI marketing automation SaaS with LangChain multi-agent orchestration and OpenAI API</image:caption>
-      <image:geo_location>Sialkot, Pakistan</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.moizahmed.online/images/portfolio_project.png</image:loc>
-      <image:title>Haash Wears B2B Platform — by Moiz Ahmed</image:title>
-      <image:caption>Custom B2B wholesale eCommerce web application built with PHP MVC and MySQL</image:caption>
-      <image:geo_location>Sialkot, Pakistan</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.moizahmed.online/images/python_project.png</image:loc>
-      <image:title>CCPD Enterprise Web Portal — by Moiz Ahmed</image:title>
-      <image:caption>Secure enterprise PHP MVC web platform with role-based access control and REST API integrations</image:caption>
-      <image:geo_location>Sialkot, Pakistan</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.moizahmed.online/images/task_manager.png</image:loc>
-      <image:title>Shopify Custom Liquid Themes — by Moiz Ahmed</image:title>
-      <image:caption>High-performance custom Shopify Liquid themes with Core Web Vitals optimization and zero script bloat</image:caption>
-      <image:geo_location>Sialkot, Pakistan</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.moizahmed.online/images/api_service.png</image:loc>
-      <image:title>AI &amp; RAG Custom Solutions — by Moiz Ahmed</image:title>
-      <image:caption>Bespoke AI solutions with FAISS vector search, LangChain, and Google Gemini API LLM pipelines</image:caption>
-      <image:geo_location>Sialkot, Pakistan</image:geo_location>
-    </image:image>
   </url>
 
-  <!-- ══════════════════════════════════════
-       ABOUT — Priority 0.9
-  ══════════════════════════════════════ -->
   <url>
     <loc>https://www.moizahmed.online/#about</loc>
     <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.90</priority>
   </url>
 
-  <!-- ══════════════════════════════════════
-       SERVICES — Priority 0.95
-  ══════════════════════════════════════ -->
   <url>
     <loc>https://www.moizahmed.online/#what-i-do</loc>
     <lastmod>2026-08-06</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
 
-  <!-- ══════════════════════════════════════
-       WORK / PROJECTS — Priority 0.95
-  ══════════════════════════════════════ -->
   <url>
     <loc>https://www.moizahmed.online/#work</loc>
     <lastmod>2026-08-06</lastmod>
@@ -96,9 +44,13 @@
     <priority>0.95</priority>
   </url>
 
-  <!-- ══════════════════════════════════════
-       CAREER / EXPERIENCE — Priority 0.85
-  ══════════════════════════════════════ -->
+  <url>
+    <loc>https://www.moizahmed.online/#blog</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
   <url>
     <loc>https://www.moizahmed.online/#career</loc>
     <lastmod>2026-08-06</lastmod>
@@ -106,9 +58,6 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- ══════════════════════════════════════
-       REVIEWS / TESTIMONIALS — Priority 0.85
-  ══════════════════════════════════════ -->
   <url>
     <loc>https://www.moizahmed.online/#reviews</loc>
     <lastmod>2026-08-06</lastmod>
@@ -116,9 +65,6 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- ══════════════════════════════════════
-       FAQ — Priority 0.80
-  ══════════════════════════════════════ -->
   <url>
     <loc>https://www.moizahmed.online/#faq</loc>
     <lastmod>2026-08-06</lastmod>
@@ -126,14 +72,64 @@
     <priority>0.80</priority>
   </url>
 
-  <!-- ══════════════════════════════════════
-       CONTACT — Priority 0.90
-  ══════════════════════════════════════ -->
   <url>
     <loc>https://www.moizahmed.online/#contact</loc>
     <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
+
+  <!-- ══════════════════════════════════════
+       15 DEDICATED SERVICE PAGES — Priority 0.90
+  ══════════════════════════════════════ -->
+  <url><loc>https://www.moizahmed.online/#services-ai-development</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.moizahmed.online/#services-ai-consulting</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.moizahmed.online/#services-ai-automation</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.moizahmed.online/#services-ai-chatbot-development</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.moizahmed.online/#services-agentic-ai-development</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.moizahmed.online/#services-rag-development</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.moizahmed.online/#services-llm-integration</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.moizahmed.online/#services-prompt-engineering</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.moizahmed.online/#services-n8n-automation</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.moizahmed.online/#services-workflow-automation</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.moizahmed.online/#services-api-integration</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.moizahmed.online/#services-full-stack-development</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.moizahmed.online/#services-custom-website-development</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.moizahmed.online/#services-digital-marketing</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.moizahmed.online/#services-technical-seo</loc><lastmod>2026-08-06</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+
+  <!-- ══════════════════════════════════════
+       6 CASE STUDY PAGES — Priority 0.85
+  ══════════════════════════════════════ -->
+  <url><loc>https://www.moizahmed.online/#work-stitchsmart</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.moizahmed.online/#work-marketgo-ai</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.moizahmed.online/#work-parway-erp</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.moizahmed.online/#work-haash-wears</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.moizahmed.online/#work-ccpd-platform</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.moizahmed.online/#work-portfolio-website</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+
+  <!-- ══════════════════════════════════════
+       20 PRODUCTION BLOG POST PAGES — Priority 0.80
+  ══════════════════════════════════════ -->
+  <url><loc>https://www.moizahmed.online/#blog-building-agentic-ai-workflows-langchain-gemini</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-rag-pipeline-architecture-faiss-vector-search</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-self-hosting-n8n-business-process-automation</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-n8n-vs-make-vs-zapier-automation-comparison</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-optimizing-php-mvc-architectures-b2b-ecommerce</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-building-manufacturing-erp-systems-php-mysql</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-shopify-speed-optimization-custom-liquid-themes</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-mastering-core-web-vitals-react-spa</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-generative-engine-optimization-geo-guide</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-entity-seo-schema-graphs-knowledge-panels</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-scalable-nodejs-express-rest-api-ai-saas</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-mongodb-vs-mysql-database-design-strategies</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-whatsapp-cloud-api-n8n-automation-funnels</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-connecting-enterprise-crms-rest-apis-automation</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-advanced-prompt-engineering-json-schema-outputs</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-building-secure-custom-ai-chatbots-zero-data-leakage</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-fastapi-vs-express-python-llm-microservices</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-parsing-pdf-documents-semantic-embeddings-rag</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-technical-seo-audit-checklist-react-vite-spa</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.moizahmed.online/#blog-future-of-ai-search-preparing-web-apps-perplexity-chatgpt</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
 
 </urlset>

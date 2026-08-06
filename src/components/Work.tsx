@@ -9,7 +9,11 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP);
 
-const Work = () => {
+interface WorkProps {
+  onSelectProject?: (projectId: string) => void;
+}
+
+const Work = ({ onSelectProject }: WorkProps) => {
   const [selectedProject, setSelectedProject] = useState<CaseStudy | null>(null);
 
   useGSAP(() => {
@@ -84,7 +88,10 @@ const Work = () => {
                   <p>{project.tools}</p>
                   <button
                     className="case-study-btn"
-                    onClick={() => setSelectedProject(project)}
+                    onClick={() => {
+                      setSelectedProject(project);
+                      if (onSelectProject) onSelectProject(project.id);
+                    }}
                     aria-label={`Read case study for ${project.title}`}
                     style={{
                       marginTop: "12px",

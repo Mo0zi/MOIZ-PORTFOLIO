@@ -8,7 +8,11 @@ import "./styles/Navbar.css";
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
 export let smoother: ScrollSmoother;
 
-const Navbar = () => {
+interface NavbarProps {
+  onOpenBlog?: () => void;
+}
+
+const Navbar = ({ onOpenBlog }: NavbarProps) => {
   useEffect(() => {
     smoother = ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
@@ -27,18 +31,27 @@ const Navbar = () => {
     links.forEach((elem) => {
       let element = elem as HTMLAnchorElement;
       element.addEventListener("click", (e) => {
+        const href = element.getAttribute("href");
+        if (href === "#blog") {
+          e.preventDefault();
+          if (onOpenBlog) onOpenBlog();
+          else window.dispatchEvent(new CustomEvent("open-blog"));
+          return;
+        }
         if (window.innerWidth > 1024) {
           e.preventDefault();
-          let elem = e.currentTarget as HTMLAnchorElement;
-          let section = elem.getAttribute("data-href");
-          smoother.scrollTo(section, true, "top top");
+          let section = element.getAttribute("data-href");
+          if (section && section !== "#blog") {
+            smoother.scrollTo(section, true, "top top");
+          }
         }
       });
     });
     window.addEventListener("resize", () => {
       ScrollSmoother.refresh(true);
     });
-  }, []);
+  }, [onOpenBlog]);
+
   return (
     <>
       <header className="header" role="banner">
@@ -68,6 +81,11 @@ const Navbar = () => {
             <li>
               <a data-href="#work" href="#work" aria-label="Navigate to Work section">
                 <HoverLinks text="WORK" />
+              </a>
+            </li>
+            <li>
+              <a data-href="#blog" href="#blog" aria-label="Navigate to Engineering & AI Blog Hub">
+                <HoverLinks text="BLOG" />
               </a>
             </li>
             <li>
