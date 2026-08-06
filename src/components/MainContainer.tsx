@@ -15,10 +15,12 @@ import TechStack from "./TechStack";
 
 import { ServiceModal } from "./ServiceModal";
 import { BlogModal } from "./BlogModal";
+import { LocalPageModal } from "./LocalPageModal";
 import CaseStudyModal from "./CaseStudyModal";
 
 import { servicesData, ServiceDetail } from "../data/servicesData";
 import { projectsData, CaseStudy } from "../data/projectsData";
+import { localPagesData, LocalPageDetail } from "../data/localPagesData";
 
 const MainContainer = ({ children }: PropsWithChildren) => {
   const [isDesktopView, setIsDesktopView] = useState<boolean>(
@@ -28,6 +30,7 @@ const MainContainer = ({ children }: PropsWithChildren) => {
   // Modal State
   const [selectedService, setSelectedService] = useState<ServiceDetail | null>(null);
   const [selectedProject, setSelectedProject] = useState<CaseStudy | null>(null);
+  const [selectedLocalPage, setSelectedLocalPage] = useState<LocalPageDetail | null>(null);
   const [isBlogOpen, setIsBlogOpen] = useState<boolean>(false);
   const [activeBlogSlug, setActiveBlogSlug] = useState<string | null>(null);
 
@@ -51,6 +54,10 @@ const MainContainer = ({ children }: PropsWithChildren) => {
         const slug = hash.replace("#services-", "").replace("#service-", "");
         const matched = servicesData.find((s) => s.slug === slug || s.id === slug);
         if (matched) setSelectedService(matched);
+      } else if (hash.startsWith("#local-") || hash.startsWith("#location-")) {
+        const slug = hash.replace("#local-", "").replace("#location-", "");
+        const matchedL = localPagesData.find((l) => l.slug === slug || l.id === slug);
+        if (matchedL) setSelectedLocalPage(matchedL);
       } else if (hash.startsWith("#blog")) {
         setIsBlogOpen(true);
         if (hash.startsWith("#blog-")) {
@@ -69,7 +76,7 @@ const MainContainer = ({ children }: PropsWithChildren) => {
     return () => window.removeEventListener("hashchange", handleHashChange);
   }, []);
 
-  // Listen for global custom events from Navbar & WhatIDo & Work components
+  // Listen for global custom events
   useEffect(() => {
     const handleOpenBlog = (e: Event) => {
       const customEvt = e as CustomEvent;
@@ -87,6 +94,14 @@ const MainContainer = ({ children }: PropsWithChildren) => {
       }
     };
 
+    const handleOpenLocal = (e: Event) => {
+      const customEvt = e as CustomEvent;
+      if (customEvt.detail?.localId) {
+        const found = localPagesData.find((l) => l.id === customEvt.detail.localId || l.slug === customEvt.detail.localId);
+        if (found) setSelectedLocalPage(found);
+      }
+    };
+
     const handleOpenProject = (e: Event) => {
       const customEvt = e as CustomEvent;
       if (customEvt.detail?.projectId) {
@@ -97,11 +112,13 @@ const MainContainer = ({ children }: PropsWithChildren) => {
 
     window.addEventListener("open-blog", handleOpenBlog);
     window.addEventListener("open-service", handleOpenService);
+    window.addEventListener("open-local", handleOpenLocal);
     window.addEventListener("open-project", handleOpenProject);
 
     return () => {
       window.removeEventListener("open-blog", handleOpenBlog);
       window.removeEventListener("open-service", handleOpenService);
+      window.removeEventListener("open-local", handleOpenLocal);
       window.removeEventListener("open-project", handleOpenProject);
     };
   }, []);
@@ -138,6 +155,19 @@ const MainContainer = ({ children }: PropsWithChildren) => {
       <ServiceModal
         service={selectedService}
         onClose={() => setSelectedService(null)}
+        onSelectProject={(pId) => {
+          const foundP = projectsData.find((p) => p.id === pId);
+          if (foundP) setSelectedProject(foundP);
+        }}
+      />
+
+      <LocalPageModal
+        localPage={selectedLocalPage}
+        onClose={() => setSelectedLocalPage(null)}
+        onSelectService={(sId) => {
+          const foundS = servicesData.find((s) => s.id === sId);
+          if (foundS) setSelectedService(foundS);
+        }}
         onSelectProject={(pId) => {
           const foundP = projectsData.find((p) => p.id === pId);
           if (foundP) setSelectedProject(foundP);

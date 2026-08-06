@@ -77,6 +77,25 @@ const About = () => {
           </strong>{" "}
           (2022–2026).
         </p>
+
+        {/* Local SEO Specialization Anchors */}
+        <div style={{ marginTop: "1.5rem", display: "flex", flexWrap: "wrap", gap: "8px" }}>
+          <a href="#local-ai-developer-sialkot" className="what-tags" style={{ fontSize: "0.78rem", cursor: "pointer", textDecoration: "none", color: "#fff", background: "rgba(123, 47, 255, 0.15)", border: "1px solid var(--accentColor)" }}>
+            📍 AI Developer Sialkot
+          </a>
+          <a href="#local-full-stack-developer-sialkot" className="what-tags" style={{ fontSize: "0.78rem", cursor: "pointer", textDecoration: "none", color: "#fff", background: "rgba(123, 47, 255, 0.15)", border: "1px solid var(--accentColor)" }}>
+            📍 Full Stack Developer Sialkot
+          </a>
+          <a href="#local-n8n-automation-expert-pakistan" className="what-tags" style={{ fontSize: "0.78rem", cursor: "pointer", textDecoration: "none", color: "#fff", background: "rgba(123, 47, 255, 0.15)", border: "1px solid var(--accentColor)" }}>
+            📍 n8n Automation Expert Pakistan
+          </a>
+          <a href="#local-website-developer-sialkot" className="what-tags" style={{ fontSize: "0.78rem", cursor: "pointer", textDecoration: "none", color: "#fff", background: "rgba(123, 47, 255, 0.15)", border: "1px solid var(--accentColor)" }}>
+            📍 Website Developer Sialkot
+          </a>
+          <a href="#local-digital-marketing-expert-sialkot" className="what-tags" style={{ fontSize: "0.78rem", cursor: "pointer", textDecoration: "none", color: "#fff", background: "rgba(123, 47, 255, 0.15)", border: "1px solid var(--accentColor)" }}>
+            📍 Digital Marketing Expert Sialkot
+          </a>
+        </div>
       </div>
     </section>
   );

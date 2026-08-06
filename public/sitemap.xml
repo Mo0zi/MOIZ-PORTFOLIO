@@ -44,6 +44,40 @@
     <priority>0.95</priority>
   </url>
 
+  <!-- ══════════════════════════════════════
+       LOCAL SEO LANDING PAGES — Priority 0.95
+  ══════════════════════════════════════ -->
+  <url>
+    <loc>https://www.moizahmed.online/ai-developer-sialkot</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.moizahmed.online/full-stack-developer-sialkot</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.moizahmed.online/n8n-automation-expert-pakistan</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.moizahmed.online/website-developer-sialkot</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.moizahmed.online/digital-marketing-expert-sialkot</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
   <url>
     <loc>https://www.moizahmed.online/#blog</loc>
     <lastmod>2026-08-06</lastmod>

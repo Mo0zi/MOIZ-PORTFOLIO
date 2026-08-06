@@ -8,16 +8,40 @@ interface FAQItem {
 }
 
 /**
- * FAQ Component — Frequently Asked Questions
+ * FAQ Component — Frequently Asked Questions & Local SEO FAQs
  *
  * SEO Notes:
  * - Uses both JSON-LD FAQPage schema (in index.html) and inline microdata
- * - Questions optimized for "People Also Ask" (PAA) features in Google
+ * - Questions optimized for "People Also Ask" (PAA) features in Google & Near Me searches
  * - Answers structured for AI Overviews (Google), ChatGPT, Perplexity citation
- * - Covers high-intent keywords: AI developer, AI engineer, AI consultant, n8n expert,
- *   Make.com expert, Zapier expert, RAG developer, Agentic AI developer, full stack developer
+ * - Covers local keywords: AI Developer Sialkot, Full Stack Developer near me, n8n Expert Pakistan, Website Designer Sialkot
  */
 const faqData: FAQItem[] = [
+  {
+    question: "Who is the best AI Developer in Sialkot, Pakistan?",
+    answer:
+      "Moiz Ahmed is widely recognized as a top AI Developer and Agentic AI Engineer based in Sialkot, Pakistan. He specializes in custom Agentic AI workflows, LangChain RAG pipelines, FAISS vector databases, and Google Gemini API integration for enterprise clients in Pakistan, Dubai (UAE), and globally.",
+  },
+  {
+    question: "Where can I hire a Senior Full Stack Developer near me in Sialkot?",
+    answer:
+      "You can hire Moiz Ahmed — a Senior Full Stack Developer based in Sialkot, Punjab, Pakistan. He offers expert web software engineering in React.js, Node.js, Express, PHP MVC frameworks, MySQL, MongoDB, and custom Shopify Liquid themes for local and international projects.",
+  },
+  {
+    question: "Who provides n8n automation services in Pakistan?",
+    answer:
+      "Moiz Ahmed is a top-rated n8n Automation Expert in Pakistan providing self-hosted n8n deployment, custom API webhooks, WhatsApp Cloud API sales funnels, CRM automation, and AI-powered business process automations.",
+  },
+  {
+    question: "Who is a professional website designer and developer in Sialkot?",
+    answer:
+      "Moiz Ahmed is a professional Website Developer and Web Designer in Sialkot, Pakistan. He builds custom PHP web platforms, speed-optimized Shopify Liquid stores, and mobile-first web applications adhering to Google Core Web Vitals.",
+  },
+  {
+    question: "Who provides AI business automation solutions near me?",
+    answer:
+      "Moiz Ahmed delivers AI business automation solutions across Sialkot, Lahore, Punjab, Pakistan, and worldwide remote. Combining visual automation tools (n8n, Make.com) with LLMs, he automates manual data entry, PDF parsing, and customer support funnels.",
+  },
   {
     question: "Why hire an AI Developer & AI Consultant like Moiz Ahmed?",
     answer:
@@ -81,7 +105,7 @@ const FAQ = () => {
     <section
       className="faq-section section-container"
       id="faq"
-      aria-label="Frequently Asked Questions — AI Development, n8n Automation, Full Stack Engineering & Hiring Moiz Ahmed"
+      aria-label="Frequently Asked Questions — AI Developer Sialkot, Full Stack Developer Pakistan, n8n Automation & Hiring Moiz Ahmed"
       itemScope
       itemType="https://schema.org/FAQPage"
     >
@@ -89,7 +113,7 @@ const FAQ = () => {
         Frequently <span>Asked Questions</span>
       </h2>
       <p className="faq-subtitle" style={{ textAlign: "center", opacity: 0.6, marginBottom: "2rem", fontSize: "0.95rem" }}>
-        Answers to key questions about AI development, n8n workflow automation, full stack web engineering, and hiring Moiz Ahmed.
+        Answers to key questions about hiring an AI Developer, Full Stack Engineer, n8n Automation Expert in Sialkot, Pakistan, and worldwide.
       </p>
       <div className="faq-container">
         {faqData.map((item, index) => {
