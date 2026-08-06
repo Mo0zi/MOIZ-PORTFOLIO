@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Image Sitemap — Moiz Ahmed Portfolio
+  https://www.moizahmed.online/
+  Last Updated: 2026-08-06
+  Purpose: Maximize image indexing in Google Images & AI Search
+-->
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+
+  <url>
+    <loc>https://www.moizahmed.online/</loc>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/ecommerce_project.png</image:loc>
+      <image:title>StitchSmart AI eCommerce SaaS — Moiz Ahmed Portfolio</image:title>
+      <image:caption>AI-powered B2B and B2C eCommerce platform with custom RAG chatbot using LangChain, FAISS vector search, and Google Gemini API. Built by Moiz Ahmed — Full Stack &amp; AI Developer, Sialkot Pakistan.</image:caption>
+      <image:geo_location>Sialkot, Punjab, Pakistan</image:geo_location>
+      <image:license>https://www.moizahmed.online/</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/parway_erp.png</image:loc>
+      <image:title>PARWAY Manufacturing ERP System — Moiz Ahmed Portfolio</image:title>
+      <image:caption>Custom Enterprise Resource Planning (ERP) system for apparel manufacturing. Features real-time production metrics, worker wages, lot tracking, and financial dashboards. PHP MVC, MySQL, JavaScript — by Moiz Ahmed.</image:caption>
+      <image:geo_location>Sialkot, Punjab, Pakistan</image:geo_location>
+      <image:license>https://www.moizahmed.online/</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/ml_dashboard.png</image:loc>
+      <image:title>MarketGO AI Marketing Automation SaaS — Moiz Ahmed Portfolio</image:title>
+      <image:caption>Autonomous marketing SaaS using LangChain Agentic AI and OpenAI API to generate multi-channel ad campaigns. React, Express.js, multi-agent orchestration — by Moiz Ahmed.</image:caption>
+      <image:geo_location>Sialkot, Punjab, Pakistan</image:geo_location>
+      <image:license>https://www.moizahmed.online/</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/portfolio_project.png</image:loc>
+      <image:title>Haash Wears B2B eCommerce Platform — Moiz Ahmed Portfolio</image:title>
+      <image:caption>Custom B2B wholesale eCommerce web platform built with PHP MVC, MySQL, and SEO-optimized semantic HTML. High-performance catalog with server-side query caching — by Moiz Ahmed.</image:caption>
+      <image:geo_location>Sialkot, Punjab, Pakistan</image:geo_location>
+      <image:license>https://www.moizahmed.online/</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/python_project.png</image:loc>
+      <image:title>CCPD Enterprise Web Portal — Moiz Ahmed Portfolio</image:title>
+      <image:caption>Secure enterprise PHP MVC web management portal with role-based access control, CSRF protection, MySQL audit logging, and RESTful API integrations — by Moiz Ahmed.</image:caption>
+      <image:geo_location>Sialkot, Punjab, Pakistan</image:geo_location>
+      <image:license>https://www.moizahmed.online/</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/task_manager.png</image:loc>
+      <image:title>Shopify Custom Liquid Themes &amp; Stores — Moiz Ahmed Portfolio</image:title>
+      <image:caption>Custom Shopify Liquid themes optimized for Core Web Vitals, mobile performance, and zero third-party script bloat — by Moiz Ahmed, Shopify Developer Pakistan.</image:caption>
+      <image:geo_location>Sialkot, Punjab, Pakistan</image:geo_location>
+      <image:license>https://www.moizahmed.online/</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/api_service.png</image:loc>
+      <image:title>AI &amp; RAG Custom Solutions — Moiz Ahmed Portfolio</image:title>
+      <image:caption>Bespoke AI solutions: FAISS vector databases, LangChain RAG pipelines, semantic PDF chunking, and Google Gemini API inference — by Moiz Ahmed, AI Developer.</image:caption>
+      <image:geo_location>Sialkot, Punjab, Pakistan</image:geo_location>
+      <image:license>https://www.moizahmed.online/</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/n8n_workflow.png</image:loc>
+      <image:title>n8n Workflow Automation — Moiz Ahmed Portfolio</image:title>
+      <image:caption>Custom n8n automation workflows for business process automation, API integrations, WhatsApp automation, and AI-powered pipelines — by Moiz Ahmed, n8n Expert.</image:caption>
+      <image:geo_location>Sialkot, Punjab, Pakistan</image:geo_location>
+      <image:license>https://www.moizahmed.online/</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/social_media_dashboard.png</image:loc>
+      <image:title>Social Media Marketing Dashboard — Moiz Ahmed Portfolio</image:title>
+      <image:caption>Digital marketing campaign analytics and performance tracking for international clients including ACG Dubai and MAMI Venezuela — by Moiz Ahmed, Digital Marketing Expert.</image:caption>
+      <image:geo_location>Sialkot, Punjab, Pakistan</image:geo_location>
+      <image:license>https://www.moizahmed.online/</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/developer_coding.png</image:loc>
+      <image:title>Moiz Ahmed — Full Stack Developer &amp; AI Engineer</image:title>
+      <image:caption>Moiz Ahmed, Senior Full Stack Developer and Agentic AI Engineer based in Sialkot, Pakistan. Expert in React, Node.js, PHP MVC, LangChain, RAG, n8n automation, and Shopify development.</image:caption>
+      <image:geo_location>Sialkot, Punjab, Pakistan</image:geo_location>
+      <image:license>https://www.moizahmed.online/</image:license>
+    </image:image>
+
+    <!-- Tech Stack Images -->
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/react2.webp</image:loc>
+      <image:title>React.js — Technology Stack of Moiz Ahmed</image:title>
+      <image:caption>React.js is one of the core frontend technologies in Moiz Ahmed's full stack engineering tech stack.</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/node2.webp</image:loc>
+      <image:title>Node.js — Technology Stack of Moiz Ahmed</image:title>
+      <image:caption>Node.js powers Moiz Ahmed's backend API services and server-side engineering projects.</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/next2.webp</image:loc>
+      <image:title>Next.js — Technology Stack of Moiz Ahmed</image:title>
+      <image:caption>Next.js is part of Moiz Ahmed's frontend and full-stack development technology arsenal.</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/mongo.webp</image:loc>
+      <image:title>MongoDB — Database Technology used by Moiz Ahmed</image:title>
+      <image:caption>MongoDB NoSQL database is used extensively in Moiz Ahmed's full-stack web applications including StitchSmart AI eCommerce.</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/mysql.webp</image:loc>
+      <image:title>MySQL — Database Technology used by Moiz Ahmed</image:title>
+      <image:caption>MySQL relational database is central to enterprise projects like PARWAY ERP, CCPD Portal, and Haash Wears built by Moiz Ahmed.</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/typescript.webp</image:loc>
+      <image:title>TypeScript — Technology Stack of Moiz Ahmed</image:title>
+      <image:caption>TypeScript is used in Moiz Ahmed's modern web applications for type-safe, scalable frontend and backend development.</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/javascript.webp</image:loc>
+      <image:title>JavaScript — Core Technology of Moiz Ahmed</image:title>
+      <image:caption>JavaScript is Moiz Ahmed's primary programming language for full-stack web development, used across React, Node.js, Express, and Shopify projects.</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/express.webp</image:loc>
+      <image:title>Express.js — Backend Framework used by Moiz Ahmed</image:title>
+      <image:caption>Express.js is used as the backend REST API framework in Moiz Ahmed's Node.js web application projects.</image:caption>
+    </image:image>
+
+  </url>
+
+</urlset>

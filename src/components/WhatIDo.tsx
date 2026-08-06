@@ -25,7 +25,7 @@ const WhatIDo = () => {
     };
   }, []);
   return (
-    <section className="whatIDO" id="what-i-do" aria-label="Services and Engineering Capabilities">
+    <section className="whatIDO" id="what-i-do" aria-label="Services: Full Stack Development, Agentic AI, n8n Automation, Shopify & Digital Marketing by Moiz Ahmed">
       <div className="what-box" style={{ flexDirection: "column", alignItems: "flex-start" }}>
         <h2 className="title">
           W<span className="hat-h2">HAT</span>
@@ -66,7 +66,7 @@ const WhatIDo = () => {
             ref={(el) => setRef(el, 0)}
             role="button"
             tabIndex={0}
-            aria-label="Expand Full Stack Development capabilities"
+            aria-label="Expand Full Stack Web Development capabilities — React, Node.js, PHP MVC, Shopify"
             onKeyDown={(e) => {
               if (e.key === "Enter" || e.key === " ") {
                 const el = containerRef.current[0];
@@ -101,9 +101,9 @@ const WhatIDo = () => {
               <h3>Full Stack Web Engineering</h3>
               <h4>Description</h4>
               <p>
-                Architecting high-availability full-stack web applications and custom PHP MVC enterprise platforms. Delivering seamless user experiences with React.js, Node.js, Express, MongoDB, MySQL, and Shopify Liquid development.
+                Architecting high-availability full-stack web applications, custom PHP MVC enterprise platforms, and high-converting Shopify stores. Delivering seamless, performance-optimized digital experiences with React.js, Node.js, Express, MongoDB, MySQL, and Shopify Liquid development.
               </p>
-              <h5>Skillset &amp; tools</h5>
+              <h5>Skillset &amp; Tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">React.js</div>
                 <div className="what-tags">Node.js</div>
@@ -114,18 +114,20 @@ const WhatIDo = () => {
                 <div className="what-tags">MongoDB</div>
                 <div className="what-tags">MySQL</div>
                 <div className="what-tags">REST APIs</div>
+                <div className="what-tags">Shopify Liquid</div>
+                <div className="what-tags">Next.js</div>
               </div>
               <div className="what-arrow"></div>
             </div>
           </div>
 
-          {/* ── Card 2: AI & ML ── */}
+          {/* ── Card 2: Agentic AI, RAG & n8n Automation ── */}
           <div
             className="what-content what-noTouch"
             ref={(el) => setRef(el, 1)}
             role="button"
             tabIndex={0}
-            aria-label="Expand AI and Machine Learning capabilities"
+            aria-label="Expand Agentic AI, RAG Pipeline, and n8n Automation capabilities"
             onKeyDown={(e) => {
               if (e.key === "Enter" || e.key === " ") {
                 const el = containerRef.current[1];
@@ -148,12 +150,12 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>Agentic AI &amp; RAG Systems</h3>
+              <h3>Agentic AI, RAG &amp; n8n Automation</h3>
               <h4>Description</h4>
               <p>
-                Engineering autonomous Agentic AI workflows, Retrieval-Augmented Generation (RAG) pipelines, and vector search indexing. Integrating LangChain, FAISS, Google Gemini API, and OpenAI for enterprise automation.
+                Engineering autonomous Agentic AI workflows, Retrieval-Augmented Generation (RAG) pipelines, FAISS vector search indexing, and n8n business process automations. Integrating LangChain, Google Gemini API, and OpenAI to automate complex enterprise operations end-to-end.
               </p>
-              <h5>Skillset &amp; tools</h5>
+              <h5>Skillset &amp; Tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">LangChain</div>
                 <div className="what-tags">RAG Pipelines</div>
@@ -161,21 +163,23 @@ const WhatIDo = () => {
                 <div className="what-tags">Agentic AI</div>
                 <div className="what-tags">Google Gemini API</div>
                 <div className="what-tags">OpenAI API</div>
-                <div className="what-tags">Vector DBs</div>
+                <div className="what-tags">n8n Automation</div>
+                <div className="what-tags">Prompt Engineering</div>
                 <div className="what-tags">LLM Integration</div>
                 <div className="what-tags">Python</div>
+                <div className="what-tags">WhatsApp Automation</div>
               </div>
               <div className="what-arrow"></div>
             </div>
           </div>
 
-          {/* ── Card 3: Social Media Marketing ── */}
+          {/* ── Card 3: Digital Marketing & Brand Growth ── */}
           <div
             className="what-content what-noTouch"
             ref={(el) => setRef(el, 2)}
             role="button"
             tabIndex={0}
-            aria-label="Expand Social Media Marketing capabilities"
+            aria-label="Expand Digital Marketing, Meta Ads, and Social Media Growth capabilities"
             onKeyDown={(e) => {
               if (e.key === "Enter" || e.key === " ") {
                 const el = containerRef.current[2];
@@ -198,12 +202,12 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>Social Media &amp; Digital Growth</h3>
+              <h3>Digital Marketing &amp; Brand Growth</h3>
               <h4>Description</h4>
               <p>
-                Executing data-driven digital marketing campaigns, Meta Ads management, and Google Ads optimization for global clients (Dubai, Venezuela, Pakistan). Driving qualified traffic and maximizing conversion rates.
+                Executing performance-driven digital marketing campaigns, Meta Ads (Facebook &amp; Instagram) management, Google Ads PPC optimization, and AI-automated marketing funnels for global clients across Dubai (UAE), Venezuela, and Pakistan. Driving qualified traffic, brand awareness, and maximizing conversion rates.
               </p>
-              <h5>Skillset &amp; tools</h5>
+              <h5>Skillset &amp; Tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Meta Ads</div>
                 <div className="what-tags">Google Ads</div>
@@ -213,6 +217,8 @@ const WhatIDo = () => {
                 <div className="what-tags">Analytics</div>
                 <div className="what-tags">Copywriting</div>
                 <div className="what-tags">Brand Growth</div>
+                <div className="what-tags">Email Marketing</div>
+                <div className="what-tags">CRM Automation</div>
               </div>
               <div className="what-arrow"></div>
             </div>

@@ -1,16 +1,85 @@
 {
+  "name": "Moiz Ahmed — AI Developer, Full Stack Engineer & Automation Expert",
   "short_name": "Moiz Ahmed",
-  "name": "Moiz Ahmed - Full Stack Developer & Agentic AI Engineer",
+  "description": "Official portfolio of Moiz Ahmed — Senior AI Developer, Agentic AI Engineer, Full Stack Developer & n8n Automation Expert based in Sialkot, Pakistan. Available for remote freelance worldwide.",
+  "lang": "en-US",
+  "dir": "ltr",
   "icons": [
     {
       "src": "/favicon.svg",
       "type": "image/svg+xml",
-      "sizes": "512x512 192x192 64x64 32x32 24x24 16x16"
+      "sizes": "any",
+      "purpose": "any maskable"
     }
   ],
-  "start_url": "/",
+  "start_url": "/?utm_source=pwa&utm_medium=homescreen",
+  "scope": "/",
+  "id": "/",
   "background_color": "#0b080c",
-  "theme_color": "#0b080c",
+  "theme_color": "#7b2fff",
   "display": "standalone",
-  "orientation": "portrait"
+  "display_override": ["window-controls-overlay", "standalone", "browser"],
+  "orientation": "portrait-primary",
+  "categories": [
+    "productivity",
+    "business",
+    "education",
+    "developer tools"
+  ],
+  "keywords": [
+    "AI Developer",
+    "Full Stack Developer",
+    "Agentic AI Engineer",
+    "n8n Automation",
+    "RAG Pipeline",
+    "LangChain Developer",
+    "Shopify Developer",
+    "PHP MVC",
+    "React Developer",
+    "Node.js Developer",
+    "Pakistan Developer",
+    "Sialkot"
+  ],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "View Projects",
+      "short_name": "Projects",
+      "description": "Browse Moiz Ahmed's featured engineering & AI projects",
+      "url": "/#work",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Contact Moiz",
+      "short_name": "Contact",
+      "description": "Get in touch with Moiz Ahmed for freelance or project inquiries",
+      "url": "/#contact",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "View Services",
+      "short_name": "Services",
+      "description": "Explore Moiz Ahmed's AI, development, and automation services",
+      "url": "/#what-i-do",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/ecommerce_project.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "StitchSmart AI eCommerce Platform by Moiz Ahmed"
+    },
+    {
+      "src": "/images/ml_dashboard.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "MarketGO AI — Autonomous Marketing SaaS by Moiz Ahmed"
+    }
+  ],
+  "related_applications": [],
+  "iarc_rating_id": ""
 }

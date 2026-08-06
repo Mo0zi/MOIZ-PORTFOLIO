@@ -43,8 +43,6 @@ const WorkImage = (props: Props) => {
           alt={props.alt || "Project demonstration screenshot"}
           loading="lazy"
           decoding="async"
-          width={600}
-          height={400}
         />
         {isVideo && <video src={video} autoPlay muted playsInline loop></video>}
       </a>

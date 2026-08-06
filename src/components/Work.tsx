@@ -61,11 +61,14 @@ const Work = () => {
 
   return (
     <>
-      <section className="work-section" id="work" aria-label="Featured Software and AI Projects">
+      <section className="work-section" id="work" aria-label="Featured Software Engineering & AI Projects Portfolio — Moiz Ahmed">
         <div className="work-container section-container">
           <h2>
             Featured <span>Projects &amp; Case Studies</span>
           </h2>
+          <p style={{ opacity: 0.5, fontSize: "0.9rem", marginTop: "-1rem", marginBottom: "1rem" }}>
+            Enterprise ERP · AI SaaS · RAG Pipelines · eCommerce · n8n Automation
+          </p>
           <div className="work-flex">
             {projectsData.map((project, index) => (
               <div className="work-box" key={project.id}>

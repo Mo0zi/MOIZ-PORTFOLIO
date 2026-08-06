@@ -1,16 +1,83 @@
+# ════════════════════════════════════════════
+# Robots.txt — Moiz Ahmed Portfolio
+# https://www.moizahmed.online/
+# Last Updated: 2026-08-06
+# ════════════════════════════════════════════
+
+# ── Default: All Crawlers ──────────────────
 User-agent: *
 Allow: /
 Disallow: /dist/
 Disallow: /node_modules/
+Disallow: /src/
+Disallow: /*.json$
+Disallow: /*.ts$
+Disallow: /*.tsx$
+Crawl-delay: 1
 
-# Search Engine Crawlers
+# ── Google ─────────────────────────────────
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 0
 
-User-agent: Bingbot
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /public/images/
+
+User-agent: Googlebot-Video
 Allow: /
 
-# AI Answer Engine & Generative Search Crawlers
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Storebot-Google
+Allow: /
+
+# ── Bing ───────────────────────────────────
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: BingPreview
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+User-agent: msnbot-media
+Allow: /images/
+
+# ── Apple ──────────────────────────────────
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ── DuckDuckGo ─────────────────────────────
+User-agent: DuckDuckBot
+Allow: /
+
+# ── Yahoo ──────────────────────────────────
+User-agent: Slurp
+Allow: /
+
+# ── Yandex ─────────────────────────────────
+User-agent: Yandex
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# ════════════════════════════════════════════
+# AI ANSWER ENGINE & GENERATIVE SEARCH CRAWLERS
+# (Allow all for maximum AI Search Optimization)
+# ════════════════════════════════════════════
+
+# OpenAI / ChatGPT
 User-agent: OAI-SearchBot
 Allow: /
 
@@ -20,20 +87,71 @@ Allow: /
 User-agent: GPTBot
 Allow: /
 
+# Perplexity AI
 User-agent: PerplexityBot
 Allow: /
 
+# Anthropic / Claude
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Google Gemini / AI Overviews
 User-agent: Google-Extended
 Allow: /
 
-User-agent: Applebot
+User-agent: Gemini-web
 Allow: /
 
-# Host
-Host: https://www.moizahmed.online
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
 
-# Sitemaps
+User-agent: FacebookBot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Common Crawl (training data for many LLMs)
+User-agent: CCBot
+Allow: /
+
+# Bytedance / TikTok
+User-agent: Bytespider
+Allow: /
+
+# Amazon Alexa
+User-agent: Amazonbot
+Allow: /
+
+# LinkedIn / Microsoft
+User-agent: LinkedInBot
+Allow: /
+
+# Diffbot
+User-agent: Diffbot
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Brave Search
+User-agent: Brave
+Allow: /
+
+# ════════════════════════════════════════════
+# SITEMAPS
+# ════════════════════════════════════════════
 Sitemap: https://www.moizahmed.online/sitemap.xml
+Sitemap: https://www.moizahmed.online/sitemap-images.xml
+
+# ── Host (Bing canonical) ──────────────────
+Host: https://www.moizahmed.online

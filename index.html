@@ -1,140 +1,336 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- DNS Preconnect & Font Display Optimization -->
+
+    <!-- ════════════════════════════════════════════
+         SECURITY HEADERS (via meta)
+    ════════════════════════════════════════════ -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
+
+    <!-- ════════════════════════════════════════════
+         DNS PRECONNECT & PREFETCH (Performance)
+    ════════════════════════════════════════════ -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://wa.me" />
 
-    <!-- Favicons & Web Manifest -->
+    <!-- Google Font — Geist (display=swap for non-blocking render) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- LCP Preload — Critical above-the-fold resource -->
+    <link rel="preload" as="image" href="/images/ecommerce_project.png" />
+
+    <!-- ════════════════════════════════════════════
+         FAVICONS, TOUCH ICONS & WEB MANIFEST
+    ════════════════════════════════════════════ -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="mask-icon" href="/favicon.svg" color="#7b2fff" />
     <link rel="manifest" href="/manifest.json" />
 
-    <!-- Canonical URL -->
+    <!-- ════════════════════════════════════════════
+         CANONICAL URL
+    ════════════════════════════════════════════ -->
     <link rel="canonical" href="https://www.moizahmed.online/" />
 
-    <!-- Primary Metadata -->
-    <title>Moiz Ahmed - Full Stack Developer &amp; Agentic AI Engineer | Sialkot, Pakistan</title>
-    <meta name="google-site-verification" content="RQiuYWyFCcwu40n1JKZUTjS2e6cFb9rQ6Klz9" />
-    <meta name="description" content="Moiz Ahmed — Senior Full Stack Developer &amp; Agentic AI Engineer based in Sialkot, Pakistan. Expert in PHP MVC, React.js, Node.js, Express.js, MongoDB, LangChain, FAISS, RAG pipelines, Google Gemini API, and Shopify. Building intelligent, scalable, user-focused web solutions." />
-    <meta name="keywords" content="Moiz Ahmed, Moiz Ahmed Developer, Moiz Ahmed AI Engineer, Moiz Ahmed Portfolio, Moiz Ahmed Software Engineer, Full Stack Developer Sialkot, Agentic AI Engineer, PHP MVC Developer, React Developer Pakistan, Node.js Engineer, LangChain Developer, RAG Integration, FAISS, Shopify Developer Sialkot, AI Engineer, Web Developer Pakistan" />
-    <meta name="author" content="Moiz Ahmed" />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-    <meta name="theme-color" content="#0b080c" />
+    <!-- ════════════════════════════════════════════
+         PRIMARY METADATA
+    ════════════════════════════════════════════ -->
+    <title>Moiz Ahmed — AI Developer, Full Stack Engineer & Automation Expert | Sialkot, Pakistan</title>
 
-    <!-- Geo Targeting Metas -->
+    <meta name="google-site-verification" content="RQiuYWyFCcwu40n1JKZUTjS2e6cFb9rQ6Klz9" />
+
+    <meta
+      name="description"
+      content="Moiz Ahmed is a top-rated AI Developer, Agentic AI Engineer, Full Stack Developer & Automation Expert based in Sialkot, Pakistan. Specializing in LangChain RAG pipelines, n8n workflow automation, React.js, Node.js, PHP MVC, Shopify, and Google Gemini API. Available for freelance and remote contracts worldwide."
+    />
+
+    <meta
+      name="keywords"
+      content="Moiz Ahmed, AI Developer, Agentic AI Developer, AI Engineer, Best AI Engineer, AI Software Engineer, AI Consultant, Generative AI Developer, LLM Developer, RAG Developer, RAG Pipeline Developer, LangChain Developer, FAISS Developer, Prompt Engineer, AI Chatbot Developer, n8n Expert, n8n Developer, n8n Automation Expert, Make.com Expert, Zapier Expert, Workflow Automation Expert, Business Automation Expert, Automation Engineer, API Integration Expert, WhatsApp Automation Expert, Full Stack Developer, Senior Full Stack Developer, Web Developer, PHP Developer, React Developer, Node.js Developer, Laravel Developer, Python Developer, JavaScript Developer, Shopify Developer, WordPress Developer, Ecommerce Developer, SEO Expert, Technical SEO Expert, Digital Marketing Expert, Social Media Marketing Expert, Marketing Automation Expert, Full Stack Developer Sialkot, AI Developer Pakistan, Web Developer Pakistan, Software Engineer Pakistan"
+    />
+
+    <meta name="author" content="Moiz Ahmed" />
+    <meta name="creator" content="Moiz Ahmed" />
+    <meta name="publisher" content="Moiz Ahmed" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta
+      name="googlebot"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <meta name="bingbot" content="index, follow" />
+    <meta name="theme-color" content="#0b080c" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="format-detection" content="telephone=yes" />
+    <meta name="rating" content="general" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="category" content="Technology, Web Development, Artificial Intelligence" />
+
+    <!-- ════════════════════════════════════════════
+         GEO TARGETING
+    ════════════════════════════════════════════ -->
     <meta name="geo.region" content="PK-PB" />
-    <meta name="geo.placename" content="Sialkot" />
+    <meta name="geo.placename" content="Sialkot, Punjab, Pakistan" />
     <meta name="geo.position" content="32.4945;74.5229" />
     <meta name="ICBM" content="32.4945, 74.5229" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
+    <!-- ════════════════════════════════════════════
+         OPEN GRAPH — FACEBOOK / LINKEDIN / WHATSAPP
+    ════════════════════════════════════════════ -->
+    <meta property="og:type" content="profile" />
     <meta property="og:url" content="https://www.moizahmed.online/" />
-    <meta property="og:title" content="Moiz Ahmed - Full Stack Developer &amp; Agentic AI Engineer" />
-    <meta property="og:description" content="Portfolio of Moiz Ahmed — Senior Full Stack Developer &amp; Agentic AI Engineer. Building high-performance web applications, RAG AI systems, PHP MVC applications, and custom Shopify themes." />
-    <meta property="og:image" content="https://www.moizahmed.online/images/ecommerce_project.png" />
-    <meta property="og:site_name" content="Moiz Ahmed Portfolio" />
+    <meta
+      property="og:title"
+      content="Moiz Ahmed — AI Developer, Full Stack Engineer & Automation Expert"
+    />
+    <meta
+      property="og:description"
+      content="Top-rated AI Developer & Full Stack Engineer from Pakistan. Expert in Agentic AI, RAG pipelines, LangChain, n8n automation, React.js, Node.js, PHP MVC, Shopify & Google Gemini API. Available for remote freelance worldwide."
+    />
+    <meta
+      property="og:image"
+      content="https://www.moizahmed.online/images/ecommerce_project.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Moiz Ahmed — AI Developer & Full Stack Engineer Portfolio"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:site_name" content="Moiz Ahmed — Official Portfolio" />
     <meta property="og:locale" content="en_US" />
+    <meta property="profile:first_name" content="Moiz" />
+    <meta property="profile:last_name" content="Ahmed" />
+    <meta property="profile:username" content="Mo0zi" />
 
-    <!-- Twitter Card -->
+    <!-- ════════════════════════════════════════════
+         TWITTER / X CARD
+    ════════════════════════════════════════════ -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@Mo0ziofficiall" />
     <meta name="twitter:creator" content="@Mo0ziofficiall" />
-    <meta name="twitter:title" content="Moiz Ahmed - Full Stack Developer &amp; Agentic AI Engineer" />
-    <meta name="twitter:description" content="Senior Full Stack Developer &amp; Agentic AI Engineer specializing in React, Node.js, PHP MVC, LangChain, RAG, and Shopify development." />
-    <meta name="twitter:image" content="https://www.moizahmed.online/images/ecommerce_project.png" />
+    <meta
+      name="twitter:title"
+      content="Moiz Ahmed — AI Developer, Full Stack Engineer & Automation Expert"
+    />
+    <meta
+      name="twitter:description"
+      content="Senior AI Developer & Full Stack Engineer specializing in Agentic AI, RAG pipelines, LangChain, n8n, React, Node.js, PHP MVC, and Shopify. Available globally for freelance & remote roles."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.moizahmed.online/images/ecommerce_project.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Moiz Ahmed — AI Developer Portfolio"
+    />
+    <meta name="twitter:domain" content="moizahmed.online" />
 
-    <!-- Structured Data (JSON-LD Graph) -->
+    <!-- ════════════════════════════════════════════
+         STRUCTURED DATA — COMPREHENSIVE JSON-LD GRAPH
+         (Schema.org — Validated against Google Rich Results)
+    ════════════════════════════════════════════ -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
+
         {
           "@type": "Person",
           "@id": "https://www.moizahmed.online/#person",
           "name": "Moiz Ahmed",
-          "alternateName": ["Mo0zi", "Moiz Ahmed Developer", "Moiz Ahmed AI Engineer", "Moiz Ahmed Software Engineer"],
+          "givenName": "Moiz",
+          "familyName": "Ahmed",
+          "alternateName": ["Mo0zi", "Moiz Ahmed Developer", "Moiz Ahmed AI Engineer", "Moiz Ahmed Software Engineer", "Moiz Malik"],
           "jobTitle": "Senior Full Stack Developer & Agentic AI Engineer",
-          "description": "Full Stack Developer with expertise in PHP MVC, React.js, Node.js, Express.js, MongoDB, LangChain, FAISS, RAG, Google Gemini API, and Agentic AI.",
+          "description": "Moiz Ahmed is a Senior Full Stack Developer and Agentic AI Engineer based in Sialkot, Pakistan, specializing in LangChain RAG pipelines, FAISS vector search, n8n workflow automation, Google Gemini API, React.js, Node.js, PHP MVC, and Shopify development.",
           "url": "https://www.moizahmed.online/",
-          "image": "https://www.moizahmed.online/images/ecommerce_project.png",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://www.moizahmed.online/images/ecommerce_project.png",
+            "contentUrl": "https://www.moizahmed.online/images/ecommerce_project.png",
+            "caption": "Moiz Ahmed — AI Developer & Full Stack Engineer"
+          },
           "email": "mailto:moizmalikofficiall@gmail.com",
           "telephone": "+923249670130",
           "address": {
             "@type": "PostalAddress",
+            "streetAddress": "",
             "addressLocality": "Sialkot",
             "addressRegion": "Punjab",
+            "postalCode": "51310",
             "addressCountry": "PK"
           },
-          "almaMater": {
+          "alumniOf": {
             "@type": "CollegeOrUniversity",
-            "name": "University of Central Punjab, Lahore"
+            "name": "University of Central Punjab",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Lahore",
+              "addressRegion": "Punjab",
+              "addressCountry": "PK"
+            }
+          },
+          "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "degree",
+            "educationalLevel": "Bachelor",
+            "name": "BS Computer Sciences",
+            "recognizedBy": {
+              "@type": "CollegeOrUniversity",
+              "name": "University of Central Punjab, Lahore"
+            }
+          },
+          "nationality": {
+            "@type": "Country",
+            "name": "Pakistan"
           },
           "sameAs": [
             "https://github.com/Mo0zi",
             "https://x.com/Mo0ziofficiall",
             "https://www.instagram.com/mo0zi.official/",
             "https://wa.me/923249670130",
-            "https://www.fiverr.com/s/vvNZWK1"
+            "https://www.fiverr.com/s/vvNZWK1",
+            "https://www.moizahmed.online/"
           ],
           "knowsAbout": [
             "Full Stack Web Development",
-            "Agentic AI & Autonomous Agents",
+            "Agentic AI & Autonomous AI Agents",
             "Retrieval-Augmented Generation (RAG)",
             "LangChain Framework",
             "FAISS Vector Database",
             "Google Gemini API & LLM Integration",
+            "OpenAI API Integration",
+            "n8n Workflow Automation",
             "PHP MVC Architecture",
-            "React.js & Node.js",
+            "React.js & Node.js Development",
             "Shopify Store & Theme Development",
-            "MongoDB & MySQL Database Design"
-          ]
+            "MongoDB & MySQL Database Design",
+            "REST API Development",
+            "Social Media Marketing",
+            "Meta Ads & Google Ads",
+            "Prompt Engineering",
+            "AI Chatbot Development",
+            "WhatsApp Automation",
+            "CRM Automation",
+            "Business Process Automation"
+          ],
+          "knowsLanguage": ["en", "ur"],
+          "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Full Stack Developer & Agentic AI Engineer",
+            "occupationLocation": {
+              "@type": "City",
+              "name": "Sialkot, Pakistan"
+            },
+            "skills": "React.js, Node.js, PHP MVC, LangChain, RAG Pipelines, FAISS, Google Gemini API, n8n, Shopify Liquid, MySQL, MongoDB, REST APIs, Python, TypeScript, JavaScript"
+          },
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Self-Employed — International Freelance & Remote Contracts"
+          }
         },
+
         {
           "@type": "Organization",
           "@id": "https://www.moizahmed.online/#organization",
-          "name": "Moiz Ahmed Engineering Consultancy",
+          "name": "Moiz Ahmed Engineering & AI Consultancy",
+          "legalName": "Moiz Ahmed Engineering & AI Consultancy",
           "url": "https://www.moizahmed.online/",
-          "logo": "https://www.moizahmed.online/favicon.svg",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.moizahmed.online/favicon.svg",
+            "contentUrl": "https://www.moizahmed.online/favicon.svg"
+          },
           "founder": {
             "@id": "https://www.moizahmed.online/#person"
           },
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+923249670130",
-            "contactType": "customer support",
-            "email": "mailto:moizmalikofficiall@gmail.com",
-            "availableLanguage": ["English", "Urdu"]
-          }
+          "employee": {
+            "@id": "https://www.moizahmed.online/#person"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sialkot",
+            "addressRegion": "Punjab",
+            "addressCountry": "PK"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+923249670130",
+              "contactType": "customer service",
+              "email": "mailto:moizmalikofficiall@gmail.com",
+              "availableLanguage": ["English", "Urdu"],
+              "areaServed": "Worldwide",
+              "contactOption": "TollFree"
+            },
+            {
+              "@type": "ContactPoint",
+              "url": "https://wa.me/923249670130",
+              "contactType": "sales",
+              "availableLanguage": ["English", "Urdu"]
+            }
+          ],
+          "sameAs": [
+            "https://github.com/Mo0zi",
+            "https://x.com/Mo0ziofficiall",
+            "https://www.instagram.com/mo0zi.official/",
+            "https://www.fiverr.com/s/vvNZWK1"
+          ]
         },
+
         {
           "@type": "WebSite",
           "@id": "https://www.moizahmed.online/#website",
           "url": "https://www.moizahmed.online/",
-          "name": "Moiz Ahmed - Official Portfolio",
-          "description": "Full Stack & Agentic AI Engineer Portfolio",
+          "name": "Moiz Ahmed — Official Portfolio",
+          "alternateName": "Moiz Ahmed Developer Portfolio",
+          "description": "Official portfolio of Moiz Ahmed — Senior AI Developer, Full Stack Engineer & Automation Expert based in Sialkot, Pakistan. Expert in Agentic AI, RAG pipelines, n8n automation, React, Node.js, PHP MVC, and Shopify.",
           "publisher": {
+            "@id": "https://www.moizahmed.online/#person"
+          },
+          "author": {
             "@id": "https://www.moizahmed.online/#person"
           },
           "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://www.moizahmed.online/?s={search_term_string}",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://www.moizahmed.online/?s={search_term_string}"
+            },
             "query-input": "required name=search_term_string"
           },
-          "inLanguage": "en-US"
+          "inLanguage": "en-US",
+          "copyrightYear": "2026",
+          "copyrightHolder": {
+            "@id": "https://www.moizahmed.online/#person"
+          }
         },
+
         {
           "@type": "WebPage",
           "@id": "https://www.moizahmed.online/#webpage",
           "url": "https://www.moizahmed.online/",
-          "name": "Moiz Ahmed - Full Stack Developer & Agentic AI Engineer",
-          "description": "Official Engineering Portfolio of Moiz Ahmed featuring Full-Stack, PHP MVC, Agentic AI, RAG, and Shopify development projects.",
+          "name": "Moiz Ahmed — AI Developer, Full Stack Engineer & Automation Expert",
+          "description": "Official Engineering Portfolio of Moiz Ahmed featuring Agentic AI, RAG pipelines, n8n automation, Full-Stack (PHP MVC, React, Node.js), Shopify & Digital Marketing projects.",
           "isPartOf": {
             "@id": "https://www.moizahmed.online/#website"
           },
@@ -146,21 +342,35 @@
             "@id": "https://www.moizahmed.online/#primaryimage",
             "url": "https://www.moizahmed.online/images/ecommerce_project.png",
             "contentUrl": "https://www.moizahmed.online/images/ecommerce_project.png",
-            "caption": "StitchSmart AI eCommerce Platform developed by Moiz Ahmed"
+            "caption": "StitchSmart AI eCommerce Platform — Built by Moiz Ahmed",
+            "description": "AI-powered B2B & B2C eCommerce platform with RAG pipeline, FAISS vector search, and Google Gemini API integration"
+          },
+          "inLanguage": "en-US",
+          "datePublished": "2024-01-01",
+          "dateModified": "2026-08-06",
+          "breadcrumb": {
+            "@id": "https://www.moizahmed.online/#breadcrumb"
+          },
+          "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": [".landing-intro h1", ".about-section p", ".faq-section"]
           }
         },
+
         {
           "@type": "ProfilePage",
           "@id": "https://www.moizahmed.online/#profilepage",
           "url": "https://www.moizahmed.online/",
-          "name": "Moiz Ahmed Portfolio & Experience",
+          "name": "Moiz Ahmed — Portfolio, Projects & Career Experience",
           "mainEntity": {
             "@id": "https://www.moizahmed.online/#person"
           },
           "isPartOf": {
             "@id": "https://www.moizahmed.online/#website"
-          }
+          },
+          "dateModified": "2026-08-06"
         },
+
         {
           "@type": "BreadcrumbList",
           "@id": "https://www.moizahmed.online/#breadcrumb",
@@ -174,116 +384,257 @@
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "About",
+              "name": "About Moiz Ahmed",
               "item": "https://www.moizahmed.online/#about"
             },
             {
               "@type": "ListItem",
               "position": 3,
-              "name": "What I Do",
+              "name": "Services — What I Do",
               "item": "https://www.moizahmed.online/#what-i-do"
             },
             {
               "@type": "ListItem",
               "position": 4,
-              "name": "Work Projects",
+              "name": "Featured Projects & Case Studies",
               "item": "https://www.moizahmed.online/#work"
             },
             {
               "@type": "ListItem",
               "position": 5,
-              "name": "Career Timeline",
+              "name": "Career & Experience Timeline",
               "item": "https://www.moizahmed.online/#career"
             },
             {
               "@type": "ListItem",
               "position": 6,
-              "name": "FAQ",
-              "item": "https://www.moizahmed.online/#faq"
+              "name": "Client Reviews & Testimonials",
+              "item": "https://www.moizahmed.online/#reviews"
             },
             {
               "@type": "ListItem",
               "position": 7,
-              "name": "Contact",
+              "name": "Frequently Asked Questions",
+              "item": "https://www.moizahmed.online/#faq"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "name": "Contact Moiz Ahmed",
               "item": "https://www.moizahmed.online/#contact"
             }
           ]
         },
+
+        {
+          "@type": "OfferCatalog",
+          "@id": "https://www.moizahmed.online/#services-catalog",
+          "name": "Moiz Ahmed — Engineering, AI & Marketing Services",
+          "description": "Full portfolio of professional services offered by Moiz Ahmed: AI development, full-stack engineering, automation workflows, Shopify development, and digital marketing.",
+          "provider": {
+            "@id": "https://www.moizahmed.online/#person"
+          },
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Agentic AI & RAG Pipeline Development",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Agentic AI & RAG Pipeline Integration",
+                "description": "Custom Agentic AI systems, LangChain workflows, FAISS vector search indexing, and Google Gemini / OpenAI LLM integrations enabling autonomous enterprise automation and intelligent document retrieval.",
+                "provider": { "@id": "https://www.moizahmed.online/#person" },
+                "areaServed": "Worldwide",
+                "serviceType": "AI Development"
+              },
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "name": "Full Stack Web Development (React, Node.js, PHP MVC)",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Full Stack Web Engineering",
+                "description": "End-to-end enterprise web application development using React.js, Node.js, Express, PHP MVC framework, MySQL, MongoDB, TypeScript, and RESTful APIs.",
+                "provider": { "@id": "https://www.moizahmed.online/#person" },
+                "areaServed": "Worldwide",
+                "serviceType": "Web Development"
+              },
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "name": "n8n & Workflow Automation",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "n8n Workflow Automation & Business Automation",
+                "description": "Custom n8n automation workflows, API integrations, WhatsApp automation, CRM automation, email automation, and AI-powered business process automation for enterprises.",
+                "provider": { "@id": "https://www.moizahmed.online/#person" },
+                "areaServed": "Worldwide",
+                "serviceType": "Automation Engineering"
+              },
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "name": "Shopify Store & Liquid Theme Engineering",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Shopify Development & Custom Liquid Themes",
+                "description": "High-converting Shopify stores with custom Liquid themes, Core Web Vitals optimization, app integrations, and performance-tuned eCommerce experiences.",
+                "provider": { "@id": "https://www.moizahmed.online/#person" },
+                "areaServed": "Worldwide",
+                "serviceType": "eCommerce Development"
+              },
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "name": "Digital Marketing & Paid Ads Management",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Social Media Marketing & Paid Advertising",
+                "description": "Data-driven Meta Ads, Google Ads campaigns, content strategy, brand growth, AI-automated marketing funnels for global clients (Dubai, Venezuela, Pakistan).",
+                "provider": { "@id": "https://www.moizahmed.online/#person" },
+                "areaServed": "Worldwide",
+                "serviceType": "Digital Marketing"
+              },
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock"
+            }
+          ]
+        },
+
         {
           "@type": "ItemList",
           "@id": "https://www.moizahmed.online/#projects",
-          "name": "Featured Engineering & AI Projects",
+          "name": "Featured Engineering & AI Portfolio Projects",
+          "description": "Showcase of real-world enterprise software, AI systems, and eCommerce platforms built by Moiz Ahmed.",
+          "numberOfItems": 7,
           "itemListElement": [
             {
               "@type": "SoftwareApplication",
               "position": 1,
-              "name": "PARWAY-ERP Software System",
-              "applicationCategory": "Enterprise ERP & Supply Chain Management",
+              "name": "PARWAY-ERP — Manufacturing Enterprise Resource Planning System",
+              "applicationCategory": "Business",
+              "applicationSubCategory": "Enterprise ERP & Manufacturing Management",
               "operatingSystem": "Web",
-              "description": "Enterprise Resource Planning (ERP) platform for multi-warehouse inventory management, financial ledgers, HR, and real-time executive analytics built with PHP MVC, React, and MySQL.",
-              "url": "https://github.com/Mo0zi",
-              "author": { "@id": "https://www.moizahmed.online/#person" }
+              "description": "Custom ERP platform for apparel manufacturing — featuring live production metrics, lot management, worker wages, customer ledgers, and executive financial dashboards built with PHP MVC, MySQL, and JavaScript.",
+              "url": "https://www.moizahmed.online/#work",
+              "author": { "@id": "https://www.moizahmed.online/#person" },
+              "programmingLanguage": ["PHP", "JavaScript", "MySQL"],
+              "keywords": "ERP software, manufacturing management, PHP MVC, enterprise software, apparel ERP"
             },
             {
               "@type": "SoftwareApplication",
               "position": 2,
-              "name": "StitchSmart",
-              "applicationCategory": "eCommerce & AI Platform",
+              "name": "StitchSmart — AI-Powered B2B & B2C eCommerce SaaS",
+              "applicationCategory": "Business",
+              "applicationSubCategory": "eCommerce & AI SaaS Platform",
               "operatingSystem": "Web",
-              "description": "AI-powered eCommerce platform built with React, Node.js, MongoDB, RAG pipelines, FAISS vector search, and Google Gemini API.",
-              "url": "https://github.com/Mo0zi",
-              "author": { "@id": "https://www.moizahmed.online/#person" }
+              "description": "AI-powered eCommerce SaaS platform with a custom RAG AI chatbot using LangChain, FAISS vector search, and Google Gemini API. Supports unified B2B wholesale and B2C retail on a single platform.",
+              "url": "https://www.moizahmed.online/#work",
+              "author": { "@id": "https://www.moizahmed.online/#person" },
+              "programmingLanguage": ["JavaScript", "React", "Node.js", "Python"],
+              "keywords": "AI eCommerce, RAG chatbot, LangChain, FAISS, Gemini API, B2B B2C platform"
             },
             {
               "@type": "SoftwareApplication",
               "position": 3,
-              "name": "MarketGO AI",
-              "applicationCategory": "Marketing SaaS & Agentic AI",
+              "name": "MarketGO AI — Autonomous Marketing Automation SaaS",
+              "applicationCategory": "Business",
+              "applicationSubCategory": "Marketing SaaS & Agentic AI",
               "operatingSystem": "Web",
-              "description": "Autonomous marketing SaaS leveraging LangChain, Agentic AI, Express.js, and OpenAI API for automated campaign generation.",
-              "url": "https://github.com/Mo0zi",
-              "author": { "@id": "https://www.moizahmed.online/#person" }
+              "description": "Autonomous marketing SaaS using LangChain Agentic AI to generate end-to-end multi-channel ad campaigns automatically with multi-agent orchestration.",
+              "url": "https://www.moizahmed.online/#work",
+              "author": { "@id": "https://www.moizahmed.online/#person" },
+              "programmingLanguage": ["JavaScript", "React", "Node.js", "Python"],
+              "keywords": "agentic AI, marketing automation, LangChain agents, OpenAI, SaaS"
             },
             {
               "@type": "SoftwareApplication",
               "position": 4,
-              "name": "Haash Wears",
-              "applicationCategory": "B2B eCommerce Web Platform",
+              "name": "Haash Wears — B2B eCommerce Web Platform",
+              "applicationCategory": "Business",
+              "applicationSubCategory": "B2B eCommerce",
               "operatingSystem": "Web",
-              "description": "Custom B2B eCommerce web platform built with PHP MVC, MySQL, JavaScript, and advanced SEO optimization.",
-              "url": "https://github.com/Mo0zi",
-              "author": { "@id": "https://www.moizahmed.online/#person" }
+              "description": "Custom B2B wholesale eCommerce platform engineered with PHP MVC, MySQL, and SEO-optimized semantic HTML. Achieved fast catalog response times via server-side query caching.",
+              "url": "https://www.moizahmed.online/#work",
+              "author": { "@id": "https://www.moizahmed.online/#person" },
+              "programmingLanguage": ["PHP", "JavaScript", "MySQL"],
+              "keywords": "B2B eCommerce, PHP MVC, wholesale platform, SEO-optimized web app"
             },
             {
               "@type": "SoftwareApplication",
               "position": 5,
-              "name": "CCPD Web Platform",
-              "applicationCategory": "Enterprise Web Application",
+              "name": "CCPD Enterprise Web Portal",
+              "applicationCategory": "Business",
+              "applicationSubCategory": "Enterprise Web Application",
               "operatingSystem": "Web",
-              "description": "Enterprise-grade web system engineered using PHP MVC framework, MySQL relational database, and RESTful API endpoints.",
-              "url": "https://github.com/Mo0zi",
-              "author": { "@id": "https://www.moizahmed.online/#person" }
+              "description": "Secure enterprise web management portal with role-based access control, CSRF protection, audit logging, and RESTful API integrations built in PHP MVC and MySQL.",
+              "url": "https://www.moizahmed.online/#work",
+              "author": { "@id": "https://www.moizahmed.online/#person" },
+              "programmingLanguage": ["PHP", "JavaScript", "MySQL"],
+              "keywords": "enterprise software, PHP MVC, RBAC, REST API, secure web portal"
+            },
+            {
+              "@type": "SoftwareApplication",
+              "position": 6,
+              "name": "Shopify Custom Liquid Themes & Stores",
+              "applicationCategory": "Business",
+              "applicationSubCategory": "eCommerce Theme Development",
+              "operatingSystem": "Web",
+              "description": "Custom Shopify Liquid themes engineered for Core Web Vitals performance, zero third-party script bloat, and mobile-first responsive design.",
+              "url": "https://www.moizahmed.online/#work",
+              "author": { "@id": "https://www.moizahmed.online/#person" },
+              "programmingLanguage": ["Liquid", "JavaScript", "CSS"],
+              "keywords": "Shopify theme development, custom Liquid, Core Web Vitals, Shopify developer"
+            },
+            {
+              "@type": "SoftwareApplication",
+              "position": 7,
+              "name": "AI & RAG Custom Solutions — Vector Search & LLM Pipelines",
+              "applicationCategory": "Business",
+              "applicationSubCategory": "Artificial Intelligence & LLM Systems",
+              "operatingSystem": "Web",
+              "description": "Bespoke AI solutions integrating FAISS vector databases, custom LLM inference pipelines, semantic chunking PDF parsers, and RESTful API wrappers for enterprise knowledge retrieval.",
+              "url": "https://www.moizahmed.online/#work",
+              "author": { "@id": "https://www.moizahmed.online/#person" },
+              "programmingLanguage": ["Python", "JavaScript", "Node.js"],
+              "keywords": "RAG pipeline, FAISS vector search, LLM integration, Gemini API, AI solutions"
             }
           ]
         },
+
         {
           "@type": "FAQPage",
           "@id": "https://www.moizahmed.online/#faqpage",
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "What services does Moiz Ahmed specialize in?",
+              "name": "What core services does Moiz Ahmed offer?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Moiz Ahmed specializes in Full-Stack Web Development (PHP MVC, React, Node.js, Express, MongoDB, MySQL), Agentic AI & RAG Pipeline Integration (LangChain, FAISS, Gemini API), and Custom Shopify Store & Theme Development."
+                "text": "Moiz Ahmed specializes in three key pillars: (1) Full Stack Web Engineering — React.js, Node.js, Express, PHP MVC, MySQL, MongoDB; (2) Agentic AI & Automation — LangChain RAG pipelines, FAISS vector search, n8n workflows, Gemini & OpenAI APIs, AI chatbot development; and (3) Social Media Marketing & Paid Ads — Meta Ads, Google Ads, content strategy, and brand scaling for international clients."
               }
             },
             {
               "@type": "Question",
-              "name": "What is Agentic AI and how does Moiz implement RAG pipelines?",
+              "name": "What is Agentic AI and how does Moiz build RAG pipelines?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Agentic AI refers to autonomous AI systems capable of executing complex workflows. Moiz implements Retrieval-Augmented Generation (RAG) using LangChain, vector embeddings, FAISS databases, and LLM APIs to allow AI to reason over proprietary data with low latency and high accuracy."
+                "text": "Agentic AI refers to autonomous AI systems capable of executing complex multi-step tasks without human intervention. Moiz implements Retrieval-Augmented Generation (RAG) using LangChain, FAISS vector databases, and LLM APIs (Gemini, OpenAI) to allow AI systems to reason over proprietary enterprise documents with high accuracy and low latency."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Moiz Ahmed build n8n automation and workflow systems?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Moiz is an experienced n8n automation expert who builds custom visual workflow automations, API integrations, WhatsApp automation, CRM automation, email automation, and AI-powered business process automation pipelines for enterprise clients worldwide."
               }
             },
             {
@@ -291,7 +642,7 @@
               "name": "Does Moiz Ahmed build custom PHP MVC applications and Shopify stores?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, Moiz has extensive experience building custom PHP MVC enterprise applications (like CCPD and Haash Wears) and high-converting Shopify eCommerce stores with custom Liquid themes."
+                "text": "Yes. Moiz has extensive experience building custom PHP MVC enterprise applications (including CCPD Enterprise Platform and Haash Wears B2B eCommerce) and high-converting Shopify eCommerce stores with custom Liquid themes optimized for Core Web Vitals performance."
               }
             },
             {
@@ -299,59 +650,134 @@
               "name": "Is Moiz Ahmed available for remote freelance work or full-time roles?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, Moiz Ahmed is available for international remote freelance projects, consulting engagements, and full-stack/AI software engineering positions."
+                "text": "Yes. Moiz Ahmed is actively available for international remote freelance projects, consulting engagements, and full-time software engineering or AI development positions. You can contact him via WhatsApp (+92 324 9670130), email (moizmalikofficiall@gmail.com), or through his 5-star Fiverr profile."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What AI technologies does Moiz Ahmed work with?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moiz works with LangChain, FAISS vector databases, Google Gemini API, OpenAI API (GPT-4, GPT-3.5), Retrieval-Augmented Generation (RAG), Agentic AI frameworks, n8n automation, prompt engineering, AI chatbot development, WhatsApp AI bots, and custom LLM inference pipeline engineering."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What countries and markets has Moiz Ahmed worked with?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moiz has delivered projects and marketing services for clients across Dubai (UAE), Venezuela, Pakistan, and globally via remote contracting. He has managed paid advertising campaigns for ACG (Dubai) and MAMI (Venezuela), built enterprise software for local and international businesses, and is available to work with clients worldwide."
               }
             }
           ]
         },
+
         {
-          "@type": "OfferCatalog",
-          "@id": "https://www.moizahmed.online/#services-catalog",
-          "name": "Moiz Ahmed Engineering & AI Services",
-          "itemListElement": [
+          "@type": "AggregateRating",
+          "@id": "https://www.moizahmed.online/#aggregaterating",
+          "ratingValue": "5.0",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "5",
+          "reviewCount": "5",
+          "itemReviewed": {
+            "@id": "https://www.moizahmed.online/#person"
+          }
+        },
+
+        {
+          "@type": "Review",
+          "@id": "https://www.moizahmed.online/#review-1",
+          "itemReviewed": { "@id": "https://www.moizahmed.online/#person" },
+          "author": {
+            "@type": "Person",
+            "name": "Tariq Al-Mansoor"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Moiz took complete charge of our digital marketing campaigns at ACG. His data-driven ad strategies and performance marketing boosted our ROI across Dubai and GCC markets. Exceptional execution speed.",
+          "publisher": {
+            "@type": "Organization",
+            "name": "ACG Dubai, UAE"
+          }
+        },
+
+        {
+          "@type": "Review",
+          "@id": "https://www.moizahmed.online/#review-2",
+          "itemReviewed": { "@id": "https://www.moizahmed.online/#person" },
+          "author": {
+            "@type": "Person",
+            "name": "Alex Rivera"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Moiz built custom Agentic AI workflows and n8n automation for our backend operations. His expertise in Gemini API, LangChain, and RAG pipelines cut down our manual processing time by 80%.",
+          "publisher": {
+            "@type": "Organization",
+            "name": "AutomateFlow AI"
+          }
+        },
+
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://www.moizahmed.online/#localbusiness",
+          "name": "Moiz Ahmed — AI Developer & Engineering Consultancy",
+          "description": "Professional AI development, full stack web engineering, n8n automation, and digital marketing services based in Sialkot, Pakistan with global remote availability.",
+          "url": "https://www.moizahmed.online/",
+          "telephone": "+923249670130",
+          "email": "moizmalikofficiall@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sialkot",
+            "addressRegion": "Punjab",
+            "postalCode": "51310",
+            "addressCountry": "PK"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "32.4945",
+            "longitude": "74.5229"
+          },
+          "openingHours": "Mo-Fr 09:00-18:00",
+          "priceRange": "$$",
+          "currenciesAccepted": "USD, PKR",
+          "paymentAccepted": "Bank Transfer, PayPal, Wise",
+          "areaServed": [
             {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Full Stack Web Development",
-                "description": "Custom enterprise web applications engineered using React.js, Node.js, PHP MVC framework, Express, MySQL, and MongoDB.",
-                "provider": { "@id": "https://www.moizahmed.online/#person" }
-              }
+              "@type": "Country",
+              "name": "Pakistan"
             },
             {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Agentic AI & RAG Pipeline Integration",
-                "description": "Autonomous AI reasoning systems, LangChain workflows, FAISS vector search, and Google Gemini / OpenAI LLM integrations.",
-                "provider": { "@id": "https://www.moizahmed.online/#person" }
-              }
+              "@type": "Country",
+              "name": "United Arab Emirates"
             },
             {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Shopify Store & Theme Engineering",
-                "description": "High-converting custom Liquid templates, store setup, app integrations, and performance optimization for eCommerce brands.",
-                "provider": { "@id": "https://www.moizahmed.online/#person" }
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Social Media Marketing & Paid Ads Management",
-                "description": "Data-driven Meta & Google Ads campaigns, content strategy, brand growth, and AI-automated marketing funnels.",
-                "provider": { "@id": "https://www.moizahmed.online/#person" }
-              }
+              "@type": "AdministrativeArea",
+              "name": "Worldwide Remote"
             }
+          ],
+          "sameAs": [
+            "https://github.com/Mo0zi",
+            "https://www.fiverr.com/s/vvNZWK1",
+            "https://x.com/Mo0ziofficiall"
           ]
         }
+
       ]
     }
     </script>
   </head>
   <body>
+    <!-- Skip Navigation for Accessibility & SEO -->
+    <a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;z-index:9999;background:#7b2fff;color:#fff;padding:8px 16px;text-decoration:none;font-family:sans-serif;border-radius:4px;">Skip to main content</a>
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

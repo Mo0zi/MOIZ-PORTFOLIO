@@ -1,77 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<!--
+  XML Sitemap — Moiz Ahmed Portfolio
+  https://www.moizahmed.online/
+  Last Updated: 2026-08-06
+  Namespace: Sitemap + Image Sitemap Extension + xHTML
+  Covers: All page sections including reviews & tech stack
+-->
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+>
+
+  <!-- ══════════════════════════════════════
+       HOME — Priority 1.0
+  ══════════════════════════════════════ -->
   <url>
     <loc>https://www.moizahmed.online/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://www.moizahmed.online/images/ecommerce_project.png</image:loc>
-      <image:title>StitchSmart - AI eCommerce Platform</image:title>
-      <image:caption>AI eCommerce Platform with RAG and Gemini API developed by Moiz Ahmed</image:caption>
+      <image:title>StitchSmart AI eCommerce Platform — Moiz Ahmed</image:title>
+      <image:caption>AI-powered B2B and B2C eCommerce platform with RAG, LangChain, FAISS, and Google Gemini API built by Moiz Ahmed</image:caption>
+      <image:geo_location>Sialkot, Pakistan</image:geo_location>
+      <image:license>https://www.moizahmed.online/</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.moizahmed.online/images/parway_erp.png</image:loc>
+      <image:title>PARWAY ERP — Manufacturing Enterprise System by Moiz Ahmed</image:title>
+      <image:caption>Custom PHP MVC ERP system for apparel manufacturing with live production metrics and financial dashboards</image:caption>
+      <image:geo_location>Sialkot, Pakistan</image:geo_location>
     </image:image>
     <image:image>
       <image:loc>https://www.moizahmed.online/images/ml_dashboard.png</image:loc>
-      <image:title>MarketGO AI - Marketing SaaS</image:title>
-      <image:caption>Agentic AI Marketing SaaS system developed by Moiz Ahmed</image:caption>
+      <image:title>MarketGO AI — Autonomous Marketing SaaS by Moiz Ahmed</image:title>
+      <image:caption>Agentic AI marketing automation SaaS with LangChain multi-agent orchestration and OpenAI API</image:caption>
+      <image:geo_location>Sialkot, Pakistan</image:geo_location>
     </image:image>
     <image:image>
       <image:loc>https://www.moizahmed.online/images/portfolio_project.png</image:loc>
-      <image:title>Haash Wears - B2B eCommerce Platform</image:title>
-      <image:caption>Full Stack B2B Web Application developed by Moiz Ahmed</image:caption>
+      <image:title>Haash Wears B2B Platform — by Moiz Ahmed</image:title>
+      <image:caption>Custom B2B wholesale eCommerce web application built with PHP MVC and MySQL</image:caption>
+      <image:geo_location>Sialkot, Pakistan</image:geo_location>
     </image:image>
     <image:image>
       <image:loc>https://www.moizahmed.online/images/python_project.png</image:loc>
-      <image:title>CCPD Web Platform</image:title>
-      <image:caption>Enterprise PHP MVC Application developed by Moiz Ahmed</image:caption>
+      <image:title>CCPD Enterprise Web Portal — by Moiz Ahmed</image:title>
+      <image:caption>Secure enterprise PHP MVC web platform with role-based access control and REST API integrations</image:caption>
+      <image:geo_location>Sialkot, Pakistan</image:geo_location>
     </image:image>
     <image:image>
       <image:loc>https://www.moizahmed.online/images/task_manager.png</image:loc>
-      <image:title>Shopify Custom Store Solutions</image:title>
-      <image:caption>Custom Liquid &amp; JavaScript Shopify Stores developed by Moiz Ahmed</image:caption>
+      <image:title>Shopify Custom Liquid Themes — by Moiz Ahmed</image:title>
+      <image:caption>High-performance custom Shopify Liquid themes with Core Web Vitals optimization and zero script bloat</image:caption>
+      <image:geo_location>Sialkot, Pakistan</image:geo_location>
     </image:image>
     <image:image>
       <image:loc>https://www.moizahmed.online/images/api_service.png</image:loc>
-      <image:title>AI &amp; LLM Powered Web Solutions</image:title>
-      <image:caption>LangChain, FAISS, and RAG Integrations by Moiz Ahmed</image:caption>
+      <image:title>AI &amp; RAG Custom Solutions — by Moiz Ahmed</image:title>
+      <image:caption>Bespoke AI solutions with FAISS vector search, LangChain, and Google Gemini API LLM pipelines</image:caption>
+      <image:geo_location>Sialkot, Pakistan</image:geo_location>
     </image:image>
   </url>
+
+  <!-- ══════════════════════════════════════
+       ABOUT — Priority 0.9
+  ══════════════════════════════════════ -->
   <url>
     <loc>https://www.moizahmed.online/#about</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+
+  <!-- ══════════════════════════════════════
+       SERVICES — Priority 0.95
+  ══════════════════════════════════════ -->
   <url>
     <loc>https://www.moizahmed.online/#what-i-do</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
   </url>
+
+  <!-- ══════════════════════════════════════
+       WORK / PROJECTS — Priority 0.95
+  ══════════════════════════════════════ -->
   <url>
     <loc>https://www.moizahmed.online/#work</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
   </url>
+
+  <!-- ══════════════════════════════════════
+       CAREER / EXPERIENCE — Priority 0.85
+  ══════════════════════════════════════ -->
   <url>
     <loc>https://www.moizahmed.online/#career</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
+
+  <!-- ══════════════════════════════════════
+       REVIEWS / TESTIMONIALS — Priority 0.85
+  ══════════════════════════════════════ -->
+  <url>
+    <loc>https://www.moizahmed.online/#reviews</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       FAQ — Priority 0.80
+  ══════════════════════════════════════ -->
   <url>
     <loc>https://www.moizahmed.online/#faq</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
   </url>
+
+  <!-- ══════════════════════════════════════
+       CONTACT — Priority 0.90
+  ══════════════════════════════════════ -->
   <url>
     <loc>https://www.moizahmed.online/#contact</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.90</priority>
   </url>
+
 </urlset>

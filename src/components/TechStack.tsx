@@ -167,8 +167,34 @@ const TechStack = () => {
   }, []);
 
   return (
-    <div className="techstack">
+    <section
+      className="techstack"
+      id="tech-stack"
+      aria-label="Technology Stack — Programming Languages & Frameworks used by Moiz Ahmed"
+    >
       <h2> My Techstack</h2>
+
+      {/* Visually hidden but crawlable tech list for SEO & AI engines */}
+      <ul
+        style={{
+          position: "absolute",
+          width: "1px",
+          height: "1px",
+          overflow: "hidden",
+          clip: "rect(0 0 0 0)",
+          whiteSpace: "nowrap",
+        }}
+        aria-label="Technology Stack List"
+      >
+        <li>React.js — Frontend JavaScript Framework</li>
+        <li>Next.js — React Framework for Production</li>
+        <li>Node.js — Server-Side JavaScript Runtime</li>
+        <li>Express.js — Node.js Web Application Framework</li>
+        <li>MongoDB — NoSQL Document Database</li>
+        <li>MySQL — Relational Database Management System</li>
+        <li>TypeScript — Typed JavaScript Superset</li>
+        <li>JavaScript (ES6+) — Core Web Programming Language</li>
+      </ul>
 
       <Canvas
         shadows
@@ -176,6 +202,8 @@ const TechStack = () => {
         camera={{ position: [0, 0, 20], fov: 32.5, near: 1, far: 100 }}
         onCreated={(state) => (state.gl.toneMappingExposure = 1.5)}
         className="tech-canvas"
+        aria-label="Interactive 3D Tech Stack Visualization — React, Next.js, Node.js, Express, MongoDB, MySQL, TypeScript, JavaScript"
+        role="img"
       >
         <ambientLight intensity={1} />
         <spotLight
@@ -207,7 +235,7 @@ const TechStack = () => {
           <N8AO color="#0f002c" aoRadius={2} intensity={1.15} />
         </EffectComposer>
       </Canvas>
-    </div>
+    </section>
   );
 };
 

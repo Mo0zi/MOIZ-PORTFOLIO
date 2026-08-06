@@ -1,8 +1,25 @@
 import "./styles/Career.css";
 
+/**
+ * Career / Experience Timeline Section
+ *
+ * SEO Notes:
+ * - WorkExperience schema microdata for each role
+ * - EducationalOccupationalCredential for degree
+ * - Rich career narrative establishes E-E-A-T signals
+ * - Role titles contain high-value keyword entities:
+ *   "AI Developer", "Full Stack Developer", "Social Media Marketing Expert",
+ *   "n8n Automation Expert", "Agentic AI Engineer", "Shopify Developer"
+ */
 const Career = () => {
   return (
-    <section className="career-section section-container" id="career" aria-label="Career and Experience Timeline">
+    <section
+      className="career-section section-container"
+      id="career"
+      aria-label="Career Experience Timeline — Moiz Ahmed"
+      itemScope
+      itemType="https://schema.org/Person"
+    >
       <div className="career-container">
         <h2>
           My career <span>&</span>
@@ -16,72 +33,135 @@ const Career = () => {
 
           <div className="career-info-box">
             <div className="career-info-in">
-              <div className="career-role">
-                <h3>Social Media Marketing Expert</h3>
-                <h4>Haash Wears</h4>
+              <div
+                className="career-role"
+                itemScope
+                itemProp="hasOccupation"
+                itemType="https://schema.org/Occupation"
+              >
+                <h3 itemProp="name">Social Media Marketing Expert & Digital Growth Strategist</h3>
+                <h4 itemProp="occupationLocation">
+                  <span itemScope itemType="https://schema.org/Organization">
+                    <span itemProp="name">Haash Wears</span>
+                  </span>
+                </h4>
               </div>
-              <span className="career-year">2023 — Present</span>
+              <span
+                className="career-year"
+                itemProp="workLocation"
+                itemScope
+                itemType="https://schema.org/AdministrativeArea"
+              >
+                <time dateTime="2023/2026">2023 — Present</time>
+              </span>
             </div>
             <p>
               Running end-to-end social media marketing for a fashion brand —
-              content strategy, paid campaigns, and growing the brand's presence
-              across Instagram and Facebook. Went from zero structured marketing
-              to consistent monthly engagement growth and measurable sales
-              impact.
+              content strategy, paid Meta & Google Ads campaigns, and growing
+              the brand's presence across Instagram and Facebook. Grew from zero
+              structured digital marketing to consistent monthly engagement
+              growth and measurable direct sales impact. Managed marketing
+              automation workflows to streamline content scheduling and audience
+              retargeting.
             </p>
           </div>
 
           <div className="career-info-box">
             <div className="career-info-in">
-              <div className="career-role">
-                <h3>Social Media & Full Stack Developer</h3>
-                <h4>CCPD</h4>
+              <div
+                className="career-role"
+                itemScope
+                itemProp="hasOccupation"
+                itemType="https://schema.org/Occupation"
+              >
+                <h3 itemProp="name">Full Stack Developer & Social Media Manager</h3>
+                <h4>
+                  <span itemScope itemType="https://schema.org/Organization">
+                    <span itemProp="name">CCPD</span>
+                  </span>
+                </h4>
               </div>
-              <span className="career-year">2024</span>
+              <span className="career-year">
+                <time dateTime="2024">2024</time>
+              </span>
             </div>
             <p>
-              Handled two things at once — building and maintaining the web
-              platform using PHP MVC and MySQL, while also managing the
-              organisation's social media channels. Not the typical combo, but
-              it's where I realised how much better products get when the person
-              building them also understands how they'll be marketed.
+              Handled two simultaneous responsibilities — building and
+              maintaining the enterprise web platform using <strong>PHP MVC</strong> and{" "}
+              <strong>MySQL</strong>, while also managing the organisation's
+              social media channels and digital presence. Implemented
+              role-based access control (RBAC), CSRF protection, audit logging,
+              and <strong>RESTful API</strong> integrations. This dual-role
+              experience strengthened the understanding of how technical products
+              need to be positioned and marketed to their target users.
             </p>
           </div>
 
           <div className="career-info-box">
             <div className="career-info-in">
-              <div className="career-role">
-                <h3>Freelance Marketing Agent & AI Developer</h3>
-                <h4>Self-Employed — International Clients</h4>
+              <div
+                className="career-role"
+                itemScope
+                itemProp="hasOccupation"
+                itemType="https://schema.org/Occupation"
+              >
+                <h3 itemProp="name">
+                  Freelance AI Developer, Automation Engineer & Marketing Consultant
+                </h3>
+                <h4>
+                  <span itemScope itemType="https://schema.org/Organization">
+                    <span itemProp="name">Self-Employed — International Remote Clients</span>
+                  </span>
+                </h4>
               </div>
-              <span className="career-year">2024 — Present</span>
+              <span className="career-year">
+                <time dateTime="2024/2026">2024 — Present</time>
+              </span>
             </div>
             <p>
-              Working independently with clients across the globe. Built and
-              executed digital marketing campaigns for ACG (Dubai) and MAMI
-              (Venezuela) — handling ad strategy, content, and performance
-              tracking. Alongside marketing, delivering custom AI solutions:
-              agentic workflows, RAG pipelines, and LLM integrations for clients
-              who need more than a standard web app.
+              Operating as an independent AI Developer and automation consultant
+              for global clients. Built and executed digital marketing campaigns
+              for <strong>ACG (Dubai, UAE)</strong> and{" "}
+              <strong>MAMI (Venezuela)</strong> — handling ad strategy, content
+              creation, and performance analytics. Alongside marketing, delivering
+              custom <strong>Agentic AI solutions</strong>:{" "}
+              <strong>
+                n8n workflow automations, RAG pipelines, LangChain integrations,
+                and LLM-powered AI chatbots
+              </strong>{" "}
+              for clients needing intelligent automation beyond standard web
+              applications. Rated <strong>5 stars on Fiverr</strong> with a{" "}
+              <strong>99% response rate</strong>.
             </p>
           </div>
 
           <div className="career-info-box">
             <div className="career-info-in">
-              <div className="career-role">
+              <div
+                className="career-role"
+                itemScope
+                itemProp="alumniOf"
+                itemType="https://schema.org/CollegeOrUniversity"
+              >
                 <h3>BS Computer Sciences</h3>
-                <h4>University of Central Punjab, Lahore</h4>
+                <h4>
+                  <span itemProp="name">University of Central Punjab, Lahore</span>
+                </h4>
               </div>
-              <span className="career-year">2022 — 2026</span>
+              <span className="career-year">
+                <time dateTime="2022/2026">2022 — 2026</time>
+              </span>
             </div>
             <p>
-              Studying Computer Science at UCP — where the degree gave me the
-              fundamentals and the projects gave me the real skills. Most of
-              what I've built professionally started as something I was learning
-              in a lab or trying to solve on my own after class.
+              Studying <strong>Computer Science</strong> at{" "}
+              <strong>UCP Lahore</strong> — where academic foundations in
+              algorithms, data structures, software engineering, and AI provided
+              the theoretical grounding that powers practical project delivery.
+              Most professional work — including enterprise ERP systems,
+              AI eCommerce platforms, and Agentic AI pipelines — began as
+              academic explorations extended into production-grade solutions.
             </p>
           </div>
-
         </div>
       </div>
     </section>
