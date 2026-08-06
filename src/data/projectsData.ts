@@ -166,5 +166,27 @@ export const projectsData: CaseStudy[] = [
       "Embedded FAISS vector similarity search",
       "REST API integration with Gemini API"
     ]
+  },
+  {
+    id: "portfolio-website",
+    title: "Official Engineering & AI Portfolio",
+    category: "Full Stack · Technical SEO · WebGL & React",
+    tools: "React, Vite, Three.js, TypeScript, Technical SEO, Schema Graph, n8n",
+    link: "https://www.moizahmed.online/",
+    image: "/images/developer_coding.png",
+    summary: "Enterprise-grade developer portfolio built with React, Vite, Three.js, and a 14-node Schema.org JSON-LD graph. Engineered for sub-second page loads, Core Web Vitals excellence, and top rankings across Google and AI search engines.",
+    problem: "Modern single-page React portfolio websites often suffer from poor SEO indexability, missing microdata schemas, and invisible WebGL canvas elements for AI search engine crawlers.",
+    architecture: [
+      "Frontend & 3D Visualization: Built with React, Vite, TypeScript, and Three.js physics simulation with accessible semantic HTML fallbacks.",
+      "Structured Data Engine: Integrated 14-node JSON-LD graph (Person, LocalBusiness, FAQPage, OfferCatalog, ItemList, Review, AggregateRating).",
+      "AI & Performance Stack: Complete robots.txt AI bot directives, master sitemap index, Netlify/Apache headers, and GZIP compression."
+    ],
+    challenges: "Making complex WebGL 3D physics scenes fully crawlable and indexable by search engines and LLM answer engines.",
+    solution: "Engineered accessible semantic fallback elements, speakable specification meta tags, and structured JSON-LD graphs.",
+    metrics: [
+      "14-Node JSON-LD Schema Graph Integration",
+      "Crawlable WebGL Accessible Semantic Fallbacks",
+      "Full AI Search Engine (GEO/AEO) Optimization"
+    ]
   }
 ];
