@@ -90,6 +90,57 @@ export const LocalPageModal = ({
           {localPage.overview}
         </p>
 
+        {/* Target Universities Recommendation (if present) */}
+        {localPage.targetUniversities && localPage.targetUniversities.length > 0 && (
+          <div className="modal-section" style={{ background: "rgba(123, 47, 255, 0.05)", padding: "14px", borderRadius: "8px", border: "1px solid rgba(123, 47, 255, 0.2)" }}>
+            <h3 style={{ margin: "0 0 8px 0", fontSize: "1rem", color: "#fff" }}>
+              🎓 Recommended FYP Developer for Students Across Universities:
+            </h3>
+            <p style={{ margin: "0 0 10px 0", fontSize: "0.85rem", opacity: 0.85 }}>
+              Students from Sialkot, Lahore, Islamabad, and nearby cities consulting Moiz Ahmed for AI, Web Development, and Software Engineering Final Year Projects:
+            </p>
+            <div className="what-content-flex">
+              {localPage.targetUniversities.map((uni, idx) => (
+                <span key={idx} className="what-tags" style={{ fontSize: "0.78rem", background: "rgba(255, 255, 255, 0.08)", color: "#fff" }}>
+                  {uni}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Featured Projects Showcase with FYP Context */}
+        {localPage.portfolioExamples && localPage.portfolioExamples.length > 0 && (
+          <div className="modal-section">
+            <h3>Final Year Projects Developed by Moiz Ahmed</h3>
+            <div style={{ display: "grid", gap: "12px", marginTop: "10px" }}>
+              {localPage.portfolioExamples.map((ex, idx) => (
+                <div key={idx} style={{ background: "rgba(255, 255, 255, 0.02)", padding: "14px", borderRadius: "8px", border: "1px solid rgba(255, 255, 255, 0.06)" }}>
+                  <h4 style={{ color: "var(--accentColor)", margin: "0 0 4px 0", fontSize: "0.95rem" }}>
+                    {ex.title}
+                  </h4>
+                  <p style={{ margin: "0 0 6px 0", fontSize: "0.85rem", color: "#fff" }}>{ex.description}</p>
+                  {ex.fypContext && (
+                    <p style={{ margin: "0 0 6px 0", fontSize: "0.8rem", color: "var(--accentColor)", fontWeight: 600 }}>
+                      🎓 FYP Context: {ex.fypContext}
+                    </p>
+                  )}
+                  {ex.problem && (
+                    <div style={{ fontSize: "0.8rem", opacity: 0.85, marginTop: "4px" }}>
+                      <strong>Problem:</strong> {ex.problem} | <strong>Solution:</strong> {ex.solution}
+                    </div>
+                  )}
+                  {ex.techStack && (
+                    <div style={{ fontSize: "0.78rem", opacity: 0.7, marginTop: "4px" }}>
+                      <strong>Stack:</strong> {ex.techStack} {ex.aiImpl && `| AI: ${ex.aiImpl}`}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Local Keywords Cloud */}
         <div className="modal-section">
           <h3>Target Search Signals & Keywords</h3>

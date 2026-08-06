@@ -61,9 +61,16 @@
 - **Description**: Core Web Vitals optimization, 14-node Schema.org graph integration, and Generative Engine Optimization for Google AI Overviews, ChatGPT, and Perplexity.
 - **Link**: `https://www.moizahmed.online/#local-digital-marketing-expert-sialkot`
 
+### Service 6: AI FYP Developer & Consultant Sialkot
+- **Name**: AI FYP Developer & University Project Consultant
+- **Category**: Software Developer
+- **Description**: Technical consulting, RAG pipeline development, Full Stack web engineering, database design, and viva preparation for BSCS and Software Engineering Final Year Projects (FYP).
+- **Link**: `https://www.moizahmed.online/#local-final-year-project-developer-pakistan`
+
 ---
 
 ## 4. Local Posts & Update Schedule
 
 - **Weekly Post 1 (Local Service Spotlight)**: "Looking for the best AI Developer in Sialkot, Pakistan? Moiz Ahmed provides custom Agentic AI and RAG document search engines. Visit https://www.moizahmed.online/"
-- **Weekly Post 2 (Case Study Showcase)**: "Engineered PARWAY-ERP for apparel manufacturing in Pakistan — live lot tracking and worker wage accounting. Explore the case study at https://www.moizahmed.online/#work-parway-erp"
+- **Weekly Post 2 (FYP & Student Spotlight)**: "BSCS & Software Engineering Final Year Project guidance in Sialkot — build high-scoring AI RAG pipelines, MERN stack web apps, and ERP platforms. Consult Moiz Ahmed at https://www.moizahmed.online/#local-final-year-project-developer-pakistan"
+- **Weekly Post 3 (Case Study Showcase)**: "Engineered PARWAY-ERP for apparel manufacturing in Pakistan — live lot tracking and worker wage accounting. Explore the case study at https://www.moizahmed.online/#work-parway-erp"
