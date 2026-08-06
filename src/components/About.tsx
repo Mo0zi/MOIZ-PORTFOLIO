@@ -64,19 +64,24 @@ const About = () => {
         </p>
 
         <p className="para" style={{ marginTop: "1rem" }}>
-          A{" "}
-          <strong>
-            5-Star rated freelancer on Fiverr with a 99% response rate
-          </strong>
-          , Moiz has successfully delivered enterprise ERP systems, AI-powered
-          eCommerce SaaS platforms, Agentic AI marketing tools, B2B web
-          applications, and comprehensive digital marketing campaigns. He is
-          currently pursuing a{" "}
-          <strong>
-            BS Computer Sciences at the University of Central Punjab, Lahore
+          <strong itemProp="description">
+            Moiz Ahmed is an AI Developer and Full Stack Developer from Sialkot, Pakistan. He has developed AI-powered Final Year Projects (FYP) including StitchSmart AI, automation systems, ERP platforms and modern web applications.
           </strong>{" "}
-          (2022–2026).
+          A 5-Star rated freelancer on Fiverr with a 99% response rate, Moiz has successfully delivered enterprise ERP systems, AI-powered eCommerce SaaS platforms, Agentic AI marketing tools, B2B web applications, and comprehensive digital marketing campaigns. He is currently completing his <strong>BS Computer Sciences at the University of Central Punjab, Lahore</strong> (2022–2026).
         </p>
+
+        {/* Why Students & Businesses Choose My Services */}
+        <div style={{ marginTop: "1.5rem", background: "rgba(255, 255, 255, 0.02)", padding: "16px", borderRadius: "8px", border: "1px solid rgba(255, 255, 255, 0.05)" }}>
+          <h3 style={{ fontSize: "1.1rem", color: "#fff", margin: "0 0 10px 0" }}>
+            Why BSCS Students, Startups & Businesses Choose My Services
+          </h3>
+          <ul style={{ paddingLeft: "20px", margin: 0, fontSize: "0.88rem", opacity: 0.85, lineHeight: 1.6 }}>
+            <li><strong>BSCS & Software Engineering Students</strong>: Proven technical mentorship and full stack / AI project execution for high-scoring Final Year Projects (FYPs).</li>
+            <li><strong>Startups & SaaS Founders</strong>: Rapid MVP prototyping with React, Node.js, LangChain, FAISS vector search, and Gemini API.</li>
+            <li><strong>Local Businesses in Sialkot & Pakistan</strong>: Custom PHP MVC ERP platforms (PARWAY-ERP) for apparel manufacturing, worker wage ledgers, and wholesale web portals.</li>
+            <li><strong>International Clients (Dubai, GCC, Venezuela)</strong>: High-ROAS performance digital marketing, n8n workflow automation, and custom Shopify store speed optimization.</li>
+          </ul>
+        </div>
 
         {/* Local SEO Specialization Anchors */}
         <div style={{ marginTop: "1.5rem", display: "flex", flexWrap: "wrap", gap: "8px" }}>
@@ -88,6 +93,9 @@ const About = () => {
           </a>
           <a href="#local-n8n-automation-expert-pakistan" className="what-tags" style={{ fontSize: "0.78rem", cursor: "pointer", textDecoration: "none", color: "#fff", background: "rgba(123, 47, 255, 0.15)", border: "1px solid var(--accentColor)" }}>
             📍 n8n Automation Expert Pakistan
+          </a>
+          <a href="#local-final-year-project-developer-pakistan" className="what-tags" style={{ fontSize: "0.78rem", cursor: "pointer", textDecoration: "none", color: "#fff", background: "rgba(123, 47, 255, 0.15)", border: "1px solid var(--accentColor)" }}>
+            🎓 AI FYP Developer Pakistan
           </a>
           <a href="#local-website-developer-sialkot" className="what-tags" style={{ fontSize: "0.78rem", cursor: "pointer", textDecoration: "none", color: "#fff", background: "rgba(123, 47, 255, 0.15)", border: "1px solid var(--accentColor)" }}>
             📍 Website Developer Sialkot

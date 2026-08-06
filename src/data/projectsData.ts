@@ -11,6 +11,8 @@ export interface CaseStudy {
   challenges: string;
   solution: string;
   metrics: string[];
+  fypContext?: string;
+  keywords?: string[];
 }
 
 export const projectsData: CaseStudy[] = [
@@ -34,7 +36,9 @@ export const projectsData: CaseStudy[] = [
       "Clothing manufacturing & lot completion tracking",
       "Worker daily wages & customer ledger automation",
       "Real-time sales vs. wages performance analytics"
-    ]
+    ],
+    fypContext: "Enterprise-grade Software Engineering Final Year Project showcasing relational MySQL architecture, custom PHP MVC, and real-world industrial financial control in Sialkot, Pakistan.",
+    keywords: ["ERP Development Pakistan", "Software Engineering Final Year Project", "PHP MVC ERP Sialkot", "Apparel Manufacturing Software"]
   },
   {
     id: "stitchsmart",
@@ -43,7 +47,7 @@ export const projectsData: CaseStudy[] = [
     tools: "React, Node.js, Express, MongoDB, LangChain, FAISS, Gemini API, RAG",
     link: "https://wa.me/923249670130",
     image: "/images/ecommerce_project.png",
-    summary: "AI-powered eCommerce SaaS platform automating online stores with a custom RAG-based AI chatbot. Evolved from a university project into a production SaaS solution offering B2B wholesale and B2C retail capabilities in a single unified web platform.",
+    summary: "AI-powered eCommerce SaaS platform automating online stores with a custom RAG-based AI chatbot. Evolved from a university final year project into a production SaaS solution offering B2B wholesale and B2C retail capabilities in a single unified web platform.",
     problem: "eCommerce businesses struggle to manage separate platforms for wholesale B2B buyers and retail B2C shoppers while lacking intelligent AI assistance for complex product catalog queries.",
     architecture: [
       "Unified B2B & B2C Architecture: Single web platform supporting dual-mode tier pricing, wholesale bulk ordering, and instant retail checkout.",
@@ -56,7 +60,9 @@ export const projectsData: CaseStudy[] = [
       "Unified B2B & B2C single-platform architecture",
       "Custom RAG AI chatbot with LangChain & FAISS",
       "In-memory vector embedding query index"
-    ]
+    ],
+    fypContext: "Premier BSCS Final Year Project demonstrating state-of-the-art AI integration (RAG + FAISS + Gemini API) evolved into a commercial B2B/B2C SaaS platform in Pakistan.",
+    keywords: ["AI FYP Project Pakistan", "BSCS Final Year Project", "RAG Pipeline FYP", "AI Based FYP Project Sialkot"]
   },
   {
     id: "marketgo-ai",
@@ -78,115 +84,80 @@ export const projectsData: CaseStudy[] = [
       "Autonomous multi-agent execution pipeline",
       "LangChain LLM orchestration architecture",
       "Token-aware rate limiting microservice"
-    ]
+    ],
+    fypContext: "Advanced Computer Science FYP showcasing autonomous multi-agent systems and LLM orchestration using LangChain and OpenAI API.",
+    keywords: ["Agentic AI FYP Project", "Multi-Agent System Pakistan", "BSCS AI Project Sialkot"]
   },
   {
     id: "haash-wears",
-    title: "Haash Wears B2B Platform",
-    category: "Full Stack · PHP MVC · B2B eCommerce",
-    tools: "PHP MVC, MySQL, JavaScript, Custom SEO",
+    title: "Haash Wears B2B Wholesale Web Platform",
+    category: "Full Stack · Custom PHP MVC · B2B Wholesale",
+    tools: "PHP, MySQL, JavaScript, Custom MVC, HTML5, CSS3, Meta & Google Ads",
     link: "https://wa.me/923249670130",
-    image: "/images/portfolio_project.png",
-    summary: "Custom B2B eCommerce web platform built with a high-performance PHP MVC framework and SEO architecture.",
-    problem: "Existing B2B wholesale portal suffered from slow catalog pagination and low visibility on search engine result pages.",
+    image: "/images/digital_marketing.png",
+    summary: "Custom B2B wholesale eCommerce platform engineered with a lightweight PHP MVC framework, MySQL query caching, and SEO-optimized HTML rendering for rapid product catalog browsing.",
+    problem: "Wholesale clothing suppliers require fast bulk product browsing and quote requests without the heavy overhead of generic eCommerce plugins.",
     architecture: [
-      "Core Framework: Custom lightweight PHP MVC framework adhering to PSR-12 coding standards.",
-      "Database: Optimized MySQL schema with indexed relational foreign keys and catalog caching.",
-      "Frontend: Vanilla JavaScript with asynchronous AJAX cart updates and mobile-first CSS."
+      "Lightweight PHP MVC Engine: Zero third-party bloat framework delivering sub-150ms TTFB server response times.",
+      "Optimized MySQL Catalog Schema: Relational database indexing for multi-attribute clothing categories and bulk pricing tiers.",
+      "Integrated Digital Marketing Funnel: Seamless integration with Meta Ads pixel tracking and Google Ads conversion funnels."
     ],
-    challenges: "Rendering catalog databases containing high SKU variant counts without server response lag.",
-    solution: "Designed a multi-level server query cache and database index strategy for accelerated catalog delivery.",
+    challenges: "Achieving top mobile performance speeds while rendering thousands of wholesale product variations and custom pricing logic.",
+    solution: "Implemented server-side query caching and responsive image srcsets delivering instant page loads.",
     metrics: [
-      "Custom lightweight PHP MVC architecture",
-      "Indexed relational MySQL database design",
-      "SEO-optimized semantic HTML rendering"
-    ]
+      "Sub-150ms TTFB server response time",
+      "Zero-framework lightweight PHP MVC architecture",
+      "High-converting B2B lead generation funnel"
+    ],
+    fypContext: "Full Stack Web Engineering project demonstrating lightweight PHP MVC design patterns, database optimization, and speed-first web development in Pakistan.",
+    keywords: ["Full Stack Developer Sialkot", "PHP MVC B2B Web App", "Web Developer Pakistan"]
   },
   {
     id: "ccpd-platform",
-    title: "CCPD Enterprise Platform",
-    category: "Full Stack · PHP MVC · Enterprise",
-    tools: "PHP MVC, MySQL, JavaScript, REST APIs",
+    title: "CCPD Enterprise Portal & Access System",
+    category: "Full Stack · PHP MVC · Institutional Management",
+    tools: "PHP MVC, MySQL, JavaScript, REST APIs, CSRF Security, Bitwise RBAC",
     link: "https://wa.me/923249670130",
-    image: "/images/python_project.png",
-    summary: "Enterprise web management portal providing secure user authentication, role-based access control, and API integrations.",
-    problem: "Legacy administrative systems had fragmented user access controls and vulnerability risks.",
+    image: "/images/social_media.png",
+    summary: "Enterprise portal engineered for CCPD featuring bitwise role-based access control (RBAC), multi-level authorization, CSRF protection, and audit logging.",
+    problem: "Institutional platforms face security vulnerabilities and access management complexities across multiple user roles and administrative tiers.",
     architecture: [
-      "Backend: PHP MVC with strict CSRF protection, password hashing, and role middleware.",
-      "Database: Relational MySQL instance designed for audit log integrity.",
-      "Integrations: Custom RESTful API endpoints for institutional reporting tools."
+      "Bitwise Role-Based Access Control (RBAC): High-performance authorization engine managing fine-grained user permissions.",
+      "PHP MVC Core Framework: Modular separation of business logic, database queries, and view templates.",
+      "Security & Audit Logging Subsystem: CSRF protection, parameterized SQL queries, and complete audit tracking."
     ],
-    challenges: "Enforcing granular role permissions across multiple institutional user tiers without bottlenecking request speed.",
-    solution: "Built a bitwise permission middleware system that validates access rights efficiently.",
+    challenges: "Implementing a flexible permission system capable of dynamically assigning multiple roles without complicating database join overhead.",
+    solution: "Designed a bitwise bitmask permission structure enabling O(1) permission evaluations.",
     metrics: [
-      "Bitwise role-based access control middleware",
-      "Relational MySQL audit logging schema",
-      "RESTful API enterprise integration"
-    ]
+      "Bitwise RBAC O(1) authorization engine",
+      "Zero-vulnerability security auditing",
+      "Modular PHP MVC codebase"
+    ],
+    fypContext: "Software Engineering Project demonstrating advanced security architecture, bitwise RBAC, and PHP MVC design patterns for institutions in Pakistan.",
+    keywords: ["Software Engineering FYP Developer", "Bitwise RBAC Security", "PHP Development Sialkot"]
   },
   {
     id: "shopify-stores",
-    title: "Shopify Custom Stores & Liquid Themes",
-    category: "eCommerce · Shopify Theme Dev",
-    tools: "Shopify, Liquid, JavaScript, Speed SEO, Theme Dev",
+    title: "Custom Shopify Liquid Stores & Speed Optimization",
+    category: "eCommerce · Shopify Liquid · Core Web Vitals",
+    tools: "Shopify Liquid, HTML5, CSS3, JavaScript, Theme Development, Speed Optimization",
     link: "https://wa.me/923249670130",
-    image: "/images/task_manager.png",
-    summary: "Custom Shopify Liquid themes engineered for maximum speed, usability, and mobile responsiveness.",
-    problem: "Standard off-the-shelf Shopify templates had bloated JavaScript files causing slow mobile loading.",
+    image: "/images/shopify_store.png",
+    summary: "Tailor-made Shopify Liquid eCommerce store themes engineered for top Core Web Vitals scores and high mobile conversion rates.",
+    problem: "Standard Shopify themes often suffer from heavy third-party app scripts, causing slow mobile load times and lost sales conversions.",
     architecture: [
-      "Theme Engine: Custom Shopify Liquid codebase built modularly without reliance on heavy apps.",
-      "Frontend: Modular JS components utilizing native Web APIs and lazy-loaded media assets."
+      "Custom Shopify Liquid Theme Engine: Custom HTML5/CSS3 templates without reliance on bloated visual page builders.",
+      "Core Web Vitals Optimization: Preloading critical assets, inline critical CSS, and deferred non-essential JavaScript execution.",
+      "Conversion Rate Optimization (CRO) Layouts: Frictionless mobile checkout flows and sticky Add-to-Cart drawer interfaces."
     ],
-    challenges: "Achieving fast mobile load times while preserving complex product image galleries and variants.",
-    solution: "Eliminated third-party script bloat, implemented native responsive image srcsets, and optimized critical CSS.",
+    challenges: "Eliminating render-blocking resources while maintaining rich visual storytelling and interactive product customizers.",
+    solution: "Engineered modular vanilla JavaScript widgets and implemented native browser lazy-loading strategies.",
     metrics: [
-      "Custom Liquid theme engine architecture",
-      "Zero third-party script bloat",
-      "Native responsive image srcsets"
-    ]
-  },
-  {
-    id: "ai-solutions",
-    title: "AI & RAG Custom Solutions",
-    category: "Agentic AI · FAISS Vector Search · LLM Pipelines",
-    tools: "LangChain, RAG, FAISS, Gemini API, React, Node.js",
-    link: "https://wa.me/923249670130",
-    image: "/images/api_service.png",
-    summary: "Bespoke artificial intelligence solutions integrating vector search databases and custom LLM inference pipelines.",
-    problem: "Enterprise clients needed secure local document search over internal knowledge bases without data leakage.",
-    architecture: [
-      "Ingestion Engine: Python/Node.js pipeline parsing PDFs, Markdown, and DB records into chunked embeddings.",
-      "Vector DB: Embedded FAISS vector indices for semantic similarity matching.",
-      "API Layer: RESTful interface wrapping Gemini API with custom prompt templates."
+      "90+ Mobile Google PageSpeed Insights score",
+      "Sub-1-second mobile page load speed",
+      "Enhanced conversion rate checkout interface"
     ],
-    challenges: "Parsing complex unformatted PDF documents into coherent text chunks for vector indexing.",
-    solution: "Developed custom semantic section boundary chunkers that preserve document context across boundaries.",
-    metrics: [
-      "Semantic chunking PDF parser pipeline",
-      "Embedded FAISS vector similarity search",
-      "REST API integration with Gemini API"
-    ]
-  },
-  {
-    id: "portfolio-website",
-    title: "Official Engineering & AI Portfolio",
-    category: "Full Stack · Technical SEO · WebGL & React",
-    tools: "React, Vite, Three.js, TypeScript, Technical SEO, Schema Graph, n8n",
-    link: "https://www.moizahmed.online/",
-    image: "/images/developer_coding.png",
-    summary: "Enterprise-grade developer portfolio built with React, Vite, Three.js, and a 14-node Schema.org JSON-LD graph. Engineered for sub-second page loads, Core Web Vitals excellence, and top rankings across Google and AI search engines.",
-    problem: "Modern single-page React portfolio websites often suffer from poor SEO indexability, missing microdata schemas, and invisible WebGL canvas elements for AI search engine crawlers.",
-    architecture: [
-      "Frontend & 3D Visualization: Built with React, Vite, TypeScript, and Three.js physics simulation with accessible semantic HTML fallbacks.",
-      "Structured Data Engine: Integrated 14-node JSON-LD graph (Person, LocalBusiness, FAQPage, OfferCatalog, ItemList, Review, AggregateRating).",
-      "AI & Performance Stack: Complete robots.txt AI bot directives, master sitemap index, Netlify/Apache headers, and GZIP compression."
-    ],
-    challenges: "Making complex WebGL 3D physics scenes fully crawlable and indexable by search engines and LLM answer engines.",
-    solution: "Engineered accessible semantic fallback elements, speakable specification meta tags, and structured JSON-LD graphs.",
-    metrics: [
-      "14-Node JSON-LD Schema Graph Integration",
-      "Crawlable WebGL Accessible Semantic Fallbacks",
-      "Full AI Search Engine (GEO/AEO) Optimization"
-    ]
+    fypContext: "eCommerce Development Project demonstrating front-end performance tuning, Shopify Liquid theme customization, and Core Web Vitals optimization.",
+    keywords: ["Shopify Developer Pakistan", "Website Developer Sialkot", "Core Web Vitals Optimization"]
   }
 ];

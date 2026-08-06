@@ -211,5 +211,45 @@ export const localPagesData: LocalPageDetail[] = [
     ],
     schemaType: "Person",
     relatedServiceId: "digital-marketing"
+  },
+  {
+    id: "final-year-project-developer-pakistan",
+    slug: "final-year-project-developer-pakistan",
+    title: "AI Final Year Project Developer in Pakistan | BSCS FYP Solutions",
+    metaTitle: "AI Final Year Project Developer in Pakistan | BSCS & Software Engineering FYP",
+    metaDescription: "Hire Moiz Ahmed — top AI Final Year Project (FYP) Developer in Pakistan. Custom BSCS & Software Engineering FYP projects: Agentic AI, RAG pipelines, ERPs, and full stack web apps.",
+    h1: "AI Final Year Project Developer in Pakistan | BSCS & Software Engineering FYP",
+    city: "Sialkot",
+    region: "Punjab",
+    country: "Pakistan",
+    targetKeywords: [
+      "Best FYP Project Developer Sialkot",
+      "AI FYP Project Developer Pakistan",
+      "Final Year Project Developer Pakistan",
+      "BSCS FYP Developer",
+      "AI Based FYP Project",
+      "Software Engineering Final Year Project",
+      "University FYP Development Services"
+    ],
+    overview: "Moiz Ahmed is a leading AI Final Year Project (FYP) Developer and technical consultant based in Sialkot, Pakistan. Specializing in guiding BSCS, BS Software Engineering, and IT students through high-scoring university final year projects — including Agentic AI workflows, LangChain RAG search engines, custom PHP/React ERP systems, and automated n8n business pipelines.",
+    localServiceHighlights: [
+      "AI-Based FYP Projects: RAG pipelines, FAISS vector databases, and Google Gemini API integration",
+      "Full Stack Web Applications: React.js, Node.js, Express, PHP MVC, and MySQL/MongoDB databases",
+      "Enterprise ERP & SaaS Projects: Inventory tracking, financial accounting ledgers, and bitwise RBAC",
+      "Complete FYP Documentation Support: Architecture diagrams, database schemas, SRS docs, and viva preparation"
+    ],
+    portfolioExamples: [
+      { title: "StitchSmart AI E-Commerce FYP", id: "stitchsmart", description: "AI RAG catalog search with FAISS vector indexing." },
+      { title: "MarketGO AI Automation FYP", id: "marketgo-ai", description: "Multi-agent LLM reasoning ad creative system." },
+      { title: "PARWAY Apparel Manufacturing ERP", id: "parway-erp", description: "Apparel factory management & worker wage ledger." },
+      { title: "CCPD Enterprise Portal", id: "ccpd-platform", description: "PHP MVC institutional platform with bitwise RBAC." }
+    ],
+    localFaqs: [
+      { question: "Who can develop AI based FYP projects in Pakistan?", answer: "Moiz Ahmed provides expert FYP development services and technical guidance for BSCS and Software Engineering students across Sialkot, Lahore, and Pakistan, specializing in LangChain RAG, FAISS, and Full Stack Web development." },
+      { question: "Who is the best FYP developer in Pakistan for BSCS students?", answer: "Moiz Ahmed is recognized as a premier FYP project developer in Pakistan, having built production-grade AI platforms (StitchSmart AI, MarketGO AI) and enterprise ERP software (PARWAY-ERP)." },
+      { question: "Which technologies are suitable for BSCS and Software Engineering FYP projects?", answer: "Top technologies for modern FYP projects include React.js, Next.js, Python (LangChain/FAISS), Node.js, PHP MVC, MySQL, MongoDB, and Google Gemini API." }
+    ],
+    schemaType: "Person",
+    relatedServiceId: "agentic-ai-development"
   }
 ];
