@@ -53,14 +53,18 @@ const WhatIDo = ({ onSelectService }: WhatIDoProps) => {
         <span className="what-instruction">( Hover over cards to expand · Click tags for deep service details )</span>
       </div>
 
-      {/* 15 Specialized Service Pills Bar */}
+      {/* 15 Specialized Service Pills Bar — Positioned cleanly on left column */}
       <div
+        className="what-service-pills-bar"
         style={{
           display: "flex",
           flexWrap: "wrap",
           gap: "8px",
           margin: "15px 0 30px 0",
           width: "100%",
+          maxWidth: "460px",
+          position: "relative",
+          zIndex: 25,
         }}
         aria-label="15 Specialized Engineering Services"
       >
@@ -72,8 +76,9 @@ const WhatIDo = ({ onSelectService }: WhatIDoProps) => {
               else window.dispatchEvent(new CustomEvent("open-service", { detail: { serviceId: s.id } }));
             }}
             style={{
-              background: "rgba(255, 255, 255, 0.04)",
-              border: "1px solid rgba(255, 255, 255, 0.12)",
+              background: "rgba(10, 10, 20, 0.75)",
+              backdropFilter: "blur(8px)",
+              border: "1px solid rgba(255, 255, 255, 0.2)",
               color: "#fff",
               padding: "6px 14px",
               borderRadius: "20px",
@@ -83,18 +88,21 @@ const WhatIDo = ({ onSelectService }: WhatIDoProps) => {
               alignItems: "center",
               gap: "5px",
               transition: "all 0.2s ease",
+              boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.borderColor = "var(--accentColor)";
-              e.currentTarget.style.background = "rgba(123, 47, 255, 0.15)";
+              e.currentTarget.style.background = "rgba(123, 47, 255, 0.3)";
+              e.currentTarget.style.transform = "translateY(-2px)";
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.borderColor = "rgba(255, 255, 255, 0.12)";
-              e.currentTarget.style.background = "rgba(255, 255, 255, 0.04)";
+              e.currentTarget.style.borderColor = "rgba(255, 255, 255, 0.2)";
+              e.currentTarget.style.background = "rgba(10, 10, 20, 0.75)";
+              e.currentTarget.style.transform = "translateY(0)";
             }}
             aria-label={`View detailed ${s.title} service page`}
           >
-            {s.title} <MdArrowOutward style={{ fontSize: "0.75rem", opacity: 0.7 }} />
+            {s.title} <MdArrowOutward style={{ fontSize: "0.75rem", opacity: 0.8 }} />
           </button>
         ))}
       </div>
